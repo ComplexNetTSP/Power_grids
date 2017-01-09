@@ -2,7 +2,7 @@ Country;x1;x2;y1;y2
 Austria;9;18;46;49
 Belgium;2;7;49;52
 Denmark;7;14;54;58
-England;-9;2;50;59
+England;-9;3;49;60
 Germany;4;16;46;56
 Great-Britain;-8;5;49;60
 India;67;98;7;35
