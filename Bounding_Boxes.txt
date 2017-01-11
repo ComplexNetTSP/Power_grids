@@ -18,3 +18,9 @@ Sweden;9;26;54;68
 Switzerland;5;11;45;48
 Turkey;24;47;35;43
 Canada;-135;-50;40;65
+USA/Northeast;-85;-65;38;49
+USA/South;-110;-70;22;42
+Asia;26;170;-18;72
+Africa;-30;65;-40;39
+Oceania;90;190;-50;10
+South_America;-100;-30;-56;20
