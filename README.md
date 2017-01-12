@@ -50,3 +50,15 @@ Note that, except for the identifier, longitude, latitude, type, and wkt_srid_43
 ## Edges CSV file format
 
 TODO
+
+## Loading the data in a graph
+
+There are two main ways for building a graph. Both methods are explained in details in the Ipython Notebook "Loading the data, an example.ipynb". 
+
+The easiest way consists in using the gml files directly :
+
+'''python
+import networkx as nx
+nx.read_gml('path_to_gml_file')
+'''
+
