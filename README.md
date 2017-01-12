@@ -57,8 +57,8 @@ There are two main ways for building a graph. Both methods are explained in deta
 
 The easiest way consists in using the gml files directly :
 
-'''python
+```python
 import networkx as nx
 nx.read_gml('path_to_gml_file')
-'''
+```
 
