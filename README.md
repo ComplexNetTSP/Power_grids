@@ -24,10 +24,6 @@ Therefore, there are two kinds of graphs in the gml and PNG folders : highvoltag
 
 ## Nodes CSV file format
 
-### Highvoltage files
-
-### Heuristic files
-
 Each row contains information relative to a single node. Fields are separated by the character '#'. The fields are the following :
 
 - "v_id": Node identifier (type: integer)
@@ -49,7 +45,29 @@ Note that, except for the identifier, longitude, latitude, type, and wkt_srid_43
 
 ## Edges CSV file format
 
-TODO
+Each row contains information relative to a single electrical line. Fields are separated by the character '#'. The fields are the following :
+
+- "l_id": Line identifier (type: integer)
+- "v_id_1": End node 1 identifier (type: integer)
+- "v_id_2": End node 2 identifier (type: integer)
+- "voltage": Line voltage level (type: integer)
+- "cables": Number of cables for the line (type: integer)
+- "wires":
+- "frequency": Line frequency (type: float)
+- "name": Line name (type: string)
+- "operator": Name of the line operator (type: string)
+- "ref":
+- "length_m": Line length in meters (type: float)
+- "r_ohmkm": Resistance of the line (type: float)
+- "x_ohmkm":
+- "c_nfkm":
+- "i_th_max_a":
+- "from_relation":
+- "wkt_srid_4326": Well known text for the object geometry (type: string) 
+- "type": Geometry type (typr: string)
+
+Note that, except for the identifiers and wkt_srid_4326 fields, most entries contain very sparse information on the other fields.
+
 
 ## Loading the data in a graph
 
@@ -61,4 +79,6 @@ The easiest way consists in using the gml files directly :
 import networkx as nx
 nx.read_gml('path_to_gml_file')
 ```
+
+The harder way consists in loading nodes and edges data from the CSV files. Please refer to the Ipython Notebook mentioned above for more information.
 
