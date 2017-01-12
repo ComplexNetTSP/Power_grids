@@ -24,7 +24,28 @@ Therefore, there are two kinds of graphs in the gml and PNG folders : highvoltag
 
 ## Nodes CSV file format
 
-TODO
+### Highvoltage files
+
+### Heuristic files
+
+Each row contains information relative to a single node. Fields are separated by the character '#'. The fields are the following :
+
+- "v_id": Node identifier (type: integer)
+- "lon": Node longitude (type: float)
+- "lat": Node latitude (type: float)
+- "typ": Node type (type: string) (example:'generator', 'substation'...)
+- "voltage": Node voltage level (type: integer)
+- "frequency": Node frequency (type: float)
+- "name": Node name (type: string) (example: Name of the power plant). These data are mostly recorded in the language of the country.
+- "operator": Operator responsible for the given node (type: string)
+- "ref":
+- "source": For generators only. Power source used by the generator (type: string) (example: 'biofuel', 'coal', 'solar'...)
+- "n_gen": For aggregated generators only. Number of generators that were aggregated (type: integer)
+- "capacity": For aggregated generators, list of aggregated generator capacities (type: List[float])
+- "Net_capacity": Capacity of the generator or the aggregated generators (in this case, it is the sum of the capacities in the previous field) (type: float)
+- "wkt_srid_4326": Well known text for the object geometry (type: string) 
+
+Note that, except for the identifier, longitude, latitude, type, and wkt_srid_4326 fields, most entries contain very sparse information on the other fields.
 
 ## Edges CSV file format
 
