@@ -11,40 +11,40 @@ There is a large gap between these data and a topological representation of the 
 There are two folders that contains the CSV data :
 
 - *Countries*
-- * Continents *
+- *Continents*
 
-As their names suggest, * Countries * contains the data for different countries and * Continents * the data for different continents. The architecture is the same for both folders. For each country/continent, there are 4 subfolders :
+As their names suggest, *Countries* contains the data for different countries and *Continents* the data for different continents. The architecture is the same for both folders. For each country/continent, there are 4 subfolders :
 
-- * Nodes * : contains the raw nodes data
-- * Edges * : contains the raw edges data
-- * graphml * : contains the graphs in graphml format
-- * PNG * : contains images of the graphs (Blue nodes : stations, red nodes : generators, white nodes : joints)
+- *Nodes* : contains the raw nodes data
+- *Edges* : contains the raw edges data
+- *graphml* : contains the graphs in graphml format
+- *PNG* : contains images of the graphs (Blue nodes : stations, red nodes : generators, white nodes : joints)
 
 In the folders Nodes and Edges there are two kinds of files :
 
 - Highvoltage CSV file : contains raw data of the highvoltage network.
 - Heuristic CSV file : contains raw data of the whole networks. As its name suggests, these data come from heuristic algorithms that try to make sense out of incomplete OpenStreetMap data. The networks obtained should therefore be treated as approximations of the true networks.
 
-Therefore, there are two kinds of graphs in the * graphml * and * PNG * folders : highvoltage networks and heuristic networks.
+Therefore, there are two kinds of graphs in the *graphml* and *PNG* folders : highvoltage networks and heuristic networks.
 
 ## Nodes CSV file format
 
 Each row contains information relative to a single node. Fields are separated by the character '#'. The fields are the following :
 
-- * v_id *: Node identifier (type: integer)
-- "lon": Node longitude (type: float)
-- "lat": Node latitude (type: float)
-- "typ": Node type (type: string) (example:'generator', 'substation'...)
-- "voltage": Node voltage level (type: integer)
-- "frequency": Node frequency (type: float)
-- "name": Node name (type: string) (example: Name of the power plant). These data are mostly recorded in the language of the country.
-- "operator": Operator responsible for the given node (type: string)
-- "ref":
-- "source": For generators only. Power source used by the generator (type: string) (example: 'biofuel', 'coal', 'solar'...)
-- "n_gen": For aggregated generators only. Number of generators that were aggregated (type: integer)
-- "capacity": For aggregated generators, list of aggregated generator capacities (type: List[float])
-- "Net_capacity": Capacity of the generator or the aggregated generators (in this case, it is the sum of the capacities in the previous field) (type: float)
-- "wkt_srid_4326": Well known text for the object geometry (type: string) 
+- *v_id*: Node identifier (type: integer)
+- *lon*: Node longitude (type: float)
+- *lat*: Node latitude (type: float)
+- *typ*: Node type (type: string) (example:'generator', 'substation'...)
+- *voltage*: Node voltage level (type: integer)
+- *frequency*: Node frequency (type: float)
+- *name*: Node name (type: string) (example: Name of the power plant). These data are mostly recorded in the language of the country.
+- *operator*: Operator responsible for the given node (type: string)
+- *ref*:
+- *source*: For generators only. Power source used by the generator (type: string) (example: 'biofuel', 'coal', 'solar'...)
+- *n_gen*: For aggregated generators only. Number of generators that were aggregated (type: integer)
+- *capacity*: For aggregated generators, list of aggregated generator capacities (type: List[float])
+- *Net_capacity*: Capacity of the generator or the aggregated generators (in this case, it is the sum of the capacities in the previous field) (type: float)
+- *wkt_srid_4326*: Well known text for the object geometry (type: string) 
 
 Note that, except for the identifier, longitude, latitude, type, and wkt_srid_4326 fields, most entries contain very sparse information on the other fields.
 
@@ -52,37 +52,37 @@ Note that, except for the identifier, longitude, latitude, type, and wkt_srid_43
 
 Each row contains information relative to a single electrical line. Fields are separated by the character '#'. The fields are the following :
 
-- "l_id": Line identifier (type: integer)
-- "v_id_1": End node 1 identifier (type: integer)
-- "v_id_2": End node 2 identifier (type: integer)
-- "voltage": Line voltage level (type: integer)
-- "cables": Number of cables for the line (type: integer)
-- "wires":
-- "frequency": Line frequency (type: float)
-- "name": Line name (type: string)
-- "operator": Name of the line operator (type: string)
-- "ref":
-- "length_m": Line length in meters (type: float)
-- "r_ohmkm": Resistance of the line (type: float)
-- "x_ohmkm":
-- "c_nfkm":
-- "i_th_max_a":
-- "from_relation":
-- "wkt_srid_4326": Well known text for the object geometry (type: string) 
-- "type": Geometry type (typr: string)
+- *l_id*: Line identifier (type: integer)
+- *v_id_1*: End node 1 identifier (type: integer)
+- *v_id_2*: End node 2 identifier (type: integer)
+- *voltage*: Line voltage level (type: integer)
+- *cables*: Number of cables for the line (type: integer)
+- *wires*:
+- *frequency*: Line frequency (type: float)
+- *name*: Line name (type: string)
+- *operator*: Name of the line operator (type: string)
+- *ref*:
+- *length_m*: Line length in meters (type: float)
+- *r_ohmkm*: Resistance of the line (type: float)
+- *x_ohmkm*:
+- *c_nfkm*:
+- *i_th_max_a*:
+- *from_relation*:
+- *wkt_srid_4326*: Well known text for the object geometry (type: string) 
+- *type*: Geometry type (typr: string)
 
 Note that, except for the identifiers and wkt_srid_4326 fields, most entries contain very sparse information on the other fields.
 
 
 ## Loading the data in a graph
 
-There are two main ways for building a graph. Both methods are explained in details in the Ipython Notebook "Loading the data, an example.ipynb". 
+There are two main ways for building a graph. Both methods are explained in details in the Ipython Notebook *Loading the data, an example.ipynb*. 
 
-The easiest way consists in using the gml files directly :
+The easiest way consists in using the graphml files directly :
 
 ```python
 import networkx as nx
-nx.read_gml('path_to_gml_file')
+nx.read_graphml('path_to_graphml_file')
 ```
 
 The harder way consists in loading nodes and edges data from the CSV files. Please refer to the Ipython Notebook mentioned above for more information.
