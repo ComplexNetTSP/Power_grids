@@ -10,7 +10,7 @@ There is a large gap between these data and a topological representation of the 
 
 There are two folders that contains the CSV data :
 
-- * Countries *
+- *Countries*
 - * Continents *
 
 As their names suggest, * Countries * contains the data for different countries and * Continents * the data for different continents. The architecture is the same for both folders. For each country/continent, there are 4 subfolders :
