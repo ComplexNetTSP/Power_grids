@@ -10,28 +10,28 @@ There is a large gap between these data and a topological representation of the 
 
 There are two folders that contains the CSV data :
 
-- Countries
-- Continents
+- * Countries *
+- * Continents *
 
-As their names suggest, *italic* Countries *italic* contains the data for different countries and Continents the data for different continents. The architecture is the same for both folders. For each country/continent, their are 4 subfolders :
+As their names suggest, * Countries * contains the data for different countries and * Continents * the data for different continents. The architecture is the same for both folders. For each country/continent, there are 4 subfolders :
 
-- Nodes : contains the raw nodes data
-- Edges : contains the raw edges data
-- gml : contains the graphs in gml format
-- PNG : contains images of the graphs (Blue nodes : stations, red nodes : generators, white nodes : joints)
+- * Nodes * : contains the raw nodes data
+- * Edges * : contains the raw edges data
+- * graphml * : contains the graphs in graphml format
+- * PNG * : contains images of the graphs (Blue nodes : stations, red nodes : generators, white nodes : joints)
 
 In the folders Nodes and Edges there are two kinds of files :
 
-- Highvoltage CSV file : contains raw data of the highvoltage network. This does NOT contain information on generators
-- Heuristic CSV file : contains raw data of the whole networks. This contains information on generators. Be carefull, as it name suggests, these data come from heuristic algorithms that tries to make sense out of incomplete Openstreet data. The networks obtain should therefore be treated as approximation of the true networks.
+- Highvoltage CSV file : contains raw data of the highvoltage network.
+- Heuristic CSV file : contains raw data of the whole networks. As its name suggests, these data come from heuristic algorithms that try to make sense out of incomplete OpenStreetMap data. The networks obtained should therefore be treated as approximations of the true networks.
 
-Therefore, there are two kinds of graphs in the gml and PNG folders : highvoltage networks and Heuristic networks.
+Therefore, there are two kinds of graphs in the * graphml * and * PNG * folders : highvoltage networks and heuristic networks.
 
 ## Nodes CSV file format
 
 Each row contains information relative to a single node. Fields are separated by the character '#'. The fields are the following :
 
-- "v_id": Node identifier (type: integer)
+- * v_id *: Node identifier (type: integer)
 - "lon": Node longitude (type: float)
 - "lat": Node latitude (type: float)
 - "typ": Node type (type: string) (example:'generator', 'substation'...)
