@@ -2,9 +2,9 @@
 
 ## Origin of the data
 
-The power grid topologies listed in the present repository were obtained from the crowdsourcing project OpenStreetMap (https://www.openstreetmap.org). These data are fed in by users of the app and may be incomplete or even wrong. For this reason topologies presented here should not be considered as exact representations of the real topologies.
+The power grid topologies listed in the present repository were obtained from the crowdsourcing project OpenStreetMap (OSM) (https://www.openstreetmap.org). These data are fed in by users of the app and may be incomplete or even wrong. For this reason, topologies presented here should not be considered as exact representations of the real topologies, but rather as approximations. Results clearly depends on the data entered by the users. 
 
-There is a large gap between these data and a topological representation of the power grid. Please refer to the SCIGRID project (http://scigrid.de) for more information.
+There is a large gap between OSM data and a graphical representation of the power grid. Please refer to the SCIGRID project (http://scigrid.de) for more information.
 
 ## Architecture
 
@@ -39,7 +39,6 @@ Each row contains information relative to a single node. Fields are separated by
 - *frequency*: Node frequency (type: float)
 - *name*: Node name (type: string) (example: Name of the power plant). These data are mostly recorded in the language of the country.
 - *operator*: Operator responsible for the given node (type: string)
-- *ref*:
 - *source*: For generators only. Power source used by the generator (type: string) (example: 'biofuel', 'coal', 'solar'...)
 - *n_gen*: For aggregated generators only. Number of generators that were aggregated (type: integer)
 - *capacity*: For aggregated generators, list of aggregated generator capacities (type: List[float])
@@ -61,13 +60,12 @@ Each row contains information relative to a single electrical line. Fields are s
 - *frequency*: Line frequency (type: float)
 - *name*: Line name (type: string)
 - *operator*: Name of the line operator (type: string)
-- *ref*:
 - *length_m*: Line length in meters (type: float)
 - *r_ohmkm*: Resistance of the line (type: float)
-- *x_ohmkm*:
-- *c_nfkm*:
-- *i_th_max_a*:
-- *from_relation*:
+- *x_ohmkm*: Reactance of the line (type: float)
+- *c_nfkm*: Capacitance of the line (type: float)
+- *i_th_max_a*: Maximum current thermal limit (type: float)
+- *from_relation*: Relation the line was obtained from
 - *wkt_srid_4326*: Well known text for the object geometry (type: string) 
 - *type*: Geometry type (typr: string)
 
