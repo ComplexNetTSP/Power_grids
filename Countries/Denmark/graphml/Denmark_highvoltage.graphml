@@ -1,0 +1,3364 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="rohmkm" attr.type="string" for="edge" id="d28" />
+  <key attr.name="cables" attr.type="string" for="edge" id="d27" />
+  <key attr.name="wktsrid4326" attr.type="string" for="edge" id="d26" />
+  <key attr.name="operator" attr.type="string" for="edge" id="d25" />
+  <key attr.name="type" attr.type="string" for="edge" id="d24" />
+  <key attr.name="lengthm" attr.type="string" for="edge" id="d23" />
+  <key attr.name="voltage" attr.type="string" for="edge" id="d22" />
+  <key attr.name="frequency" attr.type="string" for="edge" id="d21" />
+  <key attr.name="cnfkm" attr.type="string" for="edge" id="d20" />
+  <key attr.name="fromrelation" attr.type="string" for="edge" id="d19" />
+  <key attr.name="ref" attr.type="string" for="edge" id="d18" />
+  <key attr.name="name" attr.type="string" for="edge" id="d17" />
+  <key attr.name="xohmkm" attr.type="string" for="edge" id="d16" />
+  <key attr.name="wires" attr.type="string" for="edge" id="d15" />
+  <key attr.name="ithmaxa" attr.type="string" for="edge" id="d14" />
+  <key attr.name="lid" attr.type="string" for="edge" id="d13" />
+  <key attr.name="netcapacity" attr.type="string" for="node" id="d12" />
+  <key attr.name="typ" attr.type="string" for="node" id="d11" />
+  <key attr.name="wktsrid4326" attr.type="string" for="node" id="d10" />
+  <key attr.name="lat" attr.type="string" for="node" id="d9" />
+  <key attr.name="voltage" attr.type="string" for="node" id="d8" />
+  <key attr.name="frequency" attr.type="string" for="node" id="d7" />
+  <key attr.name="ngen" attr.type="string" for="node" id="d6" />
+  <key attr.name="operator" attr.type="string" for="node" id="d5" />
+  <key attr.name="lon" attr.type="string" for="node" id="d4" />
+  <key attr.name="ref" attr.type="string" for="node" id="d3" />
+  <key attr.name="source" attr.type="string" for="node" id="d2" />
+  <key attr.name="name" attr.type="string" for="node" id="d1" />
+  <key attr.name="capacity" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="512">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">12.3327915421</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">55.7382531559</data>
+      <data key="d10">SRID=4326;POINT(12.3327915421278 55.7382531559339)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="513">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.5594114821</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">60000;10000</data>
+      <data key="d9">55.7971580786</data>
+      <data key="d10">SRID=4326;POINT(9.55941148210444 55.7971580785763)</data>
+      <data key="d11">sub_station</data>
+      <data key="d12" />
+    </node>
+    <node id="6661">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.62978344907</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">400000;400000;150000;150000</data>
+      <data key="d9">55.5472209454</data>
+      <data key="d10">SRID=4326;POINT(9.6297834490703 55.5472209454162)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="6657">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.0581035901</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">150000;400000;150000;400000;150000</data>
+      <data key="d9">56.1554277503</data>
+      <data key="d10">SRID=4326;POINT(10.0581035901366 56.1554277502561)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="6679">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.0292814137</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">150000;400000;400000;150000</data>
+      <data key="d9">57.0642771604</data>
+      <data key="d10">SRID=4326;POINT(10.0292814137402 57.0642771604087)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="6680">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.0263891979</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">400000;400000;400000</data>
+      <data key="d9">57.0598793841</data>
+      <data key="d10">SRID=4326;POINT(10.0263891978514 57.0598793841276)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="8197">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.5034835512</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">400000;150000;150000;150000;400000</data>
+      <data key="d9">55.3639539586</data>
+      <data key="d10">SRID=4326;POINT(10.5034835512255 55.3639539585843)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="549">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.29268375927</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">57.0061252407</data>
+      <data key="d10">SRID=4326;POINT(9.29268375927118 57.0061252407252)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="8231">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">12.2104998616</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50;50;50</data>
+      <data key="d8">132000;132000;132000;132000;132000;132000;400000</data>
+      <data key="d9">55.8955321425</data>
+      <data key="d10">SRID=4326;POINT(12.2104998615848 55.8955321424946)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="6698">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.43968187881</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">150000;400000;400000;150000</data>
+      <data key="d9">55.5189950882</data>
+      <data key="d10">SRID=4326;POINT(9.4396818788134 55.5189950881557)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="6703">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.36261693772</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">400000;400000;150000;150000</data>
+      <data key="d9">55.2780051634</data>
+      <data key="d10">SRID=4326;POINT(9.36261693772477 55.2780051633651)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="1080">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.79027341565</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">55.4706098975</data>
+      <data key="d10">SRID=4326;POINT(9.79027341564784 55.4706098974984)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="6715">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.39055741767</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">220000;220000;150000;150000</data>
+      <data key="d9">54.9423007591</data>
+      <data key="d10">SRID=4326;POINT(9.3905574176698 54.9423007591471)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="572">
+      <data key="d0" />
+      <data key="d1">Omformerstation Herslev</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">11.3151423774</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;0</data>
+      <data key="d8">400000</data>
+      <data key="d9">55.5316191345</data>
+      <data key="d10">SRID=4326;POINT(11.3151423774352 55.5316191345104)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="6717">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.38942221665</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50;50;50;50</data>
+      <data key="d8">220000;220000;220000;220000;220000;220000</data>
+      <data key="d9">54.9394735843</data>
+      <data key="d10">SRID=4326;POINT(9.38942221664526 54.9394735842978)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="6735">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.62717689744</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">400000;400000;150000;150000</data>
+      <data key="d9">56.7859146661</data>
+      <data key="d10">SRID=4326;POINT(9.6271768974419 56.7859146660952)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="593">
+      <data key="d0" />
+      <data key="d1">BrÃ¸ndbygÃ¥rd</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">12.4083232634</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">132000;50000</data>
+      <data key="d9">55.6312009757</data>
+      <data key="d10">SRID=4326;POINT(12.4083232634447 55.631200975701)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="595">
+      <data key="d0" />
+      <data key="d1">GÃ¸rlÃ¸segÃ¥rd</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">12.1992808457</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000;132000</data>
+      <data key="d9">55.8946407627</data>
+      <data key="d10">SRID=4326;POINT(12.199280845676 55.8946407627485)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="6741">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.43865151118</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">400000;150000;400000;150000</data>
+      <data key="d9">56.5050551603</data>
+      <data key="d10">SRID=4326;POINT(9.43865151118252 56.5050551602766)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="6743">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.0498612779</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">400000;400000;150000;150000</data>
+      <data key="d9">57.0709056878</data>
+      <data key="d10">SRID=4326;POINT(10.0498612779102 57.0709056878174)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="603">
+      <data key="d0" />
+      <data key="d1">132kV SperrestrupgÃ¥rd</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">12.1900487681</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">132000;50000</data>
+      <data key="d9">55.7912433712</data>
+      <data key="d10">SRID=4326;POINT(12.1900487681101 55.7912433712444)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="6754">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.1182872107</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">400000;150000;150000;400000;150000</data>
+      <data key="d9">56.3051423942</data>
+      <data key="d10">SRID=4326;POINT(10.118287210743 56.3051423942401)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="6757">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.0364002929</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">400000;150000;150000;400000;150000</data>
+      <data key="d9">56.122187082</data>
+      <data key="d10">SRID=4326;POINT(10.0364002928722 56.1221870819766)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="1126">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.3745242418</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">56.1915239563</data>
+      <data key="d10">SRID=4326;POINT(9.37452424180092 56.1915239562882)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="6759">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.0345047578</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">400000;150000;400000;150000;150000</data>
+      <data key="d9">56.1192420544</data>
+      <data key="d10">SRID=4326;POINT(10.0345047577912 56.1192420543653)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="6760">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.0708710758</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">400000;150000;150000;400000;150000</data>
+      <data key="d9">56.0873518626</data>
+      <data key="d10">SRID=4326;POINT(10.0708710757752 56.0873518626361)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="6762">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.0675037409</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">400000;150000;400000;150000;150000</data>
+      <data key="d9">56.0891007448</data>
+      <data key="d10">SRID=4326;POINT(10.0675037409327 56.0891007447664)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="1156">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.34945489215</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">56.157620804</data>
+      <data key="d10">SRID=4326;POINT(9.34945489215334 56.1576208040498)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="1178">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.57020185058</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">56.4526117741</data>
+      <data key="d10">SRID=4326;POINT(9.57020185057551 56.4526117740696)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="1180">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.5756358931</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">56.435904695</data>
+      <data key="d10">SRID=4326;POINT(9.57563589309609 56.4359046949547)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="690">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.35579683826</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">60000</data>
+      <data key="d9">54.8473628206</data>
+      <data key="d10">SRID=4326;POINT(9.35579683825621 54.8473628205603)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="1206">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.30717943839</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">56.9885198268</data>
+      <data key="d10">SRID=4326;POINT(9.30717943839236 56.9885198267768)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="1209">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.47623615073</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">55.6650603412</data>
+      <data key="d10">SRID=4326;POINT(9.4762361507302 55.665060341209)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="458">
+      <data key="d0" />
+      <data key="d1">400 kV AskÃ¦r</data>
+      <data key="d2" />
+      <data key="d3">ASR</data>
+      <data key="d4">9.18343351507</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000;150000</data>
+      <data key="d9">55.9299545919</data>
+      <data key="d10">SRID=4326;POINT(9.18343351506521 55.9299545918988)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="707">
+      <data key="d0" />
+      <data key="d1">400kV Koblingsstation Revsing</data>
+      <data key="d2" />
+      <data key="d3">REV</data>
+      <data key="d4">9.16492500058</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000</data>
+      <data key="d9">55.5044214292</data>
+      <data key="d10">SRID=4326;POINT(9.16492500057881 55.5044214291938)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="6656">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.44676383719</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">400000;60000;400000;60000</data>
+      <data key="d9">55.4625707934</data>
+      <data key="d10">SRID=4326;POINT(9.44676383718729 55.4625707934161)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="750">
+      <data key="d0" />
+      <data key="d1">132kV Statoil Syd</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">11.0920074466</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">132000</data>
+      <data key="d9">55.6491521834</data>
+      <data key="d10">SRID=4326;POINT(11.0920074465663 55.6491521833871)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="772">
+      <data key="d0" />
+      <data key="d1">H.C. ÃrstedsvÃ¦rket</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">12.5561020542</data>
+      <data key="d5">DONG Energy</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">55.6568292717</data>
+      <data key="d10">SRID=4326;POINT(12.5561020541503 55.6568292716723)</data>
+      <data key="d11">plant</data>
+      <data key="d12" />
+    </node>
+    <node id="6917">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.38958166761</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7">50;50</data>
+      <data key="d8">220000;220000</data>
+      <data key="d9">54.939673184</data>
+      <data key="d10">SRID=4326;POINT(9.38958166760819 54.9396731840284)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="6918">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.3895058498</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7">50;50</data>
+      <data key="d8">220000;220000</data>
+      <data key="d9">54.9396818533</data>
+      <data key="d10">SRID=4326;POINT(9.38950584979821 54.9396818532807)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="282">
+      <data key="d0" />
+      <data key="d1">400/132 kV IshÃ¸j</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">12.320542243</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000;132000</data>
+      <data key="d9">55.6323740553</data>
+      <data key="d10">SRID=4326;POINT(12.3205422429875 55.6323740553215)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="288">
+      <data key="d0" />
+      <data key="d1">Kabelstation Bulbjerg</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.06630559059</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">57.1261712321</data>
+      <data key="d10">SRID=4326;POINT(9.06630559059122 57.1261712321038)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="304">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.66958348472</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">55.5351737129</data>
+      <data key="d10">SRID=4326;POINT(9.66958348471734 55.5351737128592)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="307">
+      <data key="d0" />
+      <data key="d1">400/132/50 kV GlentegÃ¥rd</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">12.4989975911</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000;132000;50000</data>
+      <data key="d9">55.7523183428</data>
+      <data key="d10">SRID=4326;POINT(12.4989975910564 55.7523183427791)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="319">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">11.1265426284</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">57.3089859545</data>
+      <data key="d10">SRID=4326;POINT(11.1265426284018 57.3089859545459)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="480">
+      <data key="d0" />
+      <data key="d1">Kabelovergangsstation Bramslev</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.88476519884</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">56.6624785742</data>
+      <data key="d10">SRID=4326;POINT(9.88476519883666 56.6624785741739)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="328">
+      <data key="d0" />
+      <data key="d1">400/150 kV Kingstrup</data>
+      <data key="d2" />
+      <data key="d3">KIN</data>
+      <data key="d4">9.96833710039</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000;150000</data>
+      <data key="d9">55.4110535202</data>
+      <data key="d10">SRID=4326;POINT(9.96833710038572 55.4110535202294)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="335">
+      <data key="d0" />
+      <data key="d1">Kabelovergangsstation Skudshale</data>
+      <data key="d2" />
+      <data key="d3">SKH</data>
+      <data key="d4">9.89625883976</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">56.989662822</data>
+      <data key="d10">SRID=4326;POINT(9.89625883976098 56.9896628220492)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="848">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">8.91821835889</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">55.5283253746</data>
+      <data key="d10">SRID=4326;POINT(8.91821835889113 55.5283253746435)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="343">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.59541892594</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">60000</data>
+      <data key="d9">55.5562202475</data>
+      <data key="d10">SRID=4326;POINT(9.59541892594147 55.5562202475477)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="344">
+      <data key="d0" />
+      <data key="d1">150/60 kV Hatting</data>
+      <data key="d2" />
+      <data key="d3">HAT</data>
+      <data key="d4">9.75184504899</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000;60000</data>
+      <data key="d9">55.8618282346</data>
+      <data key="d10">SRID=4326;POINT(9.75184504898777 55.8618282345635)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="345">
+      <data key="d0" />
+      <data key="d1">400/150 kV Malling</data>
+      <data key="d2" />
+      <data key="d3">MAL</data>
+      <data key="d4">10.1395999696</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000;150000;60000</data>
+      <data key="d9">56.0476585478</data>
+      <data key="d10">SRID=4326;POINT(10.1395999696427 56.0476585477885)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="346">
+      <data key="d0" />
+      <data key="d1">400 kV KassÃ¸</data>
+      <data key="d2" />
+      <data key="d3">KAS</data>
+      <data key="d4">9.2706560082</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000;220000;150000</data>
+      <data key="d9">55.0370036559</data>
+      <data key="d10">SRID=4326;POINT(9.27065600820016 55.0370036559271)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="347">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.47682819446</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">55.7085069281</data>
+      <data key="d10">SRID=4326;POINT(9.4768281944557 55.7085069280626)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="349">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.7072320157</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">56.8176335097</data>
+      <data key="d10">SRID=4326;POINT(9.70723201570102 56.8176335097314)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="355">
+      <data key="d0" />
+      <data key="d1">150 kV EnstedvÃ¦rket</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.43342182554</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;150000;60000</data>
+      <data key="d9">55.0187664567</data>
+      <data key="d10">SRID=4326;POINT(9.43342182553821 55.0187664566824)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="357">
+      <data key="d0" />
+      <data key="d1">400 kV Idomlund</data>
+      <data key="d2" />
+      <data key="d3">IDU</data>
+      <data key="d4">8.5536104029</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000;150000;60000</data>
+      <data key="d9">56.3515962292</data>
+      <data key="d10">SRID=4326;POINT(8.55361040290223 56.3515962292357)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="359">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">MosbÃ¦k</data>
+      <data key="d4">9.61641256387</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000</data>
+      <data key="d9">56.8035518724</data>
+      <data key="d10">SRID=4326;POINT(9.61641256387356 56.8035518723668)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="6716">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.38970617411</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50</data>
+      <data key="d8">220000;150000</data>
+      <data key="d9">54.9398291787</data>
+      <data key="d10">SRID=4326;POINT(9.38970617410657 54.9398291786814)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="362">
+      <data key="d0" />
+      <data key="d1">400 kV VendsysselvÃ¦rket</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.0483333728</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000</data>
+      <data key="d9">57.0771637523</data>
+      <data key="d10">SRID=4326;POINT(10.0483333728385 57.0771637522503)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="367">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.5414383758</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">57.2337800066</data>
+      <data key="d10">SRID=4326;POINT(10.5414383758479 57.2337800066222)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="368">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.9035830024</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">57.2523816602</data>
+      <data key="d10">SRID=4326;POINT(10.9035830023748 57.2523816601803)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="370">
+      <data key="d0" />
+      <data key="d1">400/132 kV HovegÃ¥rd</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">12.233826984</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000;132000</data>
+      <data key="d9">55.7322921043</data>
+      <data key="d10">SRID=4326;POINT(12.2338269840318 55.7322921042696)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="373">
+      <data key="d0" />
+      <data key="d1">BjÃ¦verskov HVDC Kontek</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">12.0074139354</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000</data>
+      <data key="d9">55.4515224273</data>
+      <data key="d10">SRID=4326;POINT(12.0074139354373 55.4515224273292)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="375">
+      <data key="d0" />
+      <data key="d1">150kV HornbÃ¦k</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.98127962172</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000;60000</data>
+      <data key="d9">56.4688075359</data>
+      <data key="d10">SRID=4326;POINT(9.98127962172185 56.4688075359165)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="376">
+      <data key="d0" />
+      <data key="d1">Kabelovergangsstation Tebbestrup</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.99910834372</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">56.4311794652</data>
+      <data key="d10">SRID=4326;POINT(9.99910834372248 56.4311794651573)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="380">
+      <data key="d0" />
+      <data key="d1">400 kV Endrup</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">8.70643645187</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000;150000</data>
+      <data key="d9">55.5315716785</data>
+      <data key="d10">SRID=4326;POINT(8.70643645186533 55.5315716784965)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="902">
+      <data key="d0" />
+      <data key="d1">Kabelstation GrenÃ¥ Nord</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.9201811715</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">56.4267402698</data>
+      <data key="d10">SRID=4326;POINT(10.9201811714716 56.4267402698332)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="394">
+      <data key="d0" />
+      <data key="d1">400kV/150kV LanderupgÃ¥rd</data>
+      <data key="d2" />
+      <data key="d3">LAG</data>
+      <data key="d4">9.54708798196</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000;150000</data>
+      <data key="d9">55.5639789771</data>
+      <data key="d10">SRID=4326;POINT(9.54708798196297 55.5639789770905)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="404">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.0590749385</data>
+      <data key="d5">Galten ElvÃ¦rk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">60000</data>
+      <data key="d9">56.1680679641</data>
+      <data key="d10">SRID=4326;POINT(10.0590749384533 56.1680679640957)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="922">
+      <data key="d0" />
+      <data key="d1">Kabelstation Gamst</data>
+      <data key="d2" />
+      <data key="d3">GAT</data>
+      <data key="d4">9.18312810915</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">55.4832645829</data>
+      <data key="d10">SRID=4326;POINT(9.18312810915022 55.4832645828548)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="923">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.18971434907</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">55.4624886155</data>
+      <data key="d10">SRID=4326;POINT(9.1897143490692 55.4624886155399)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="418">
+      <data key="d0" />
+      <data key="d1">400 kV Fraugde</data>
+      <data key="d2" />
+      <data key="d3">FGD</data>
+      <data key="d4">10.5055942555</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000;150000;60000</data>
+      <data key="d9">55.3658824163</data>
+      <data key="d10">SRID=4326;POINT(10.5055942554842 55.3658824163426)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="427">
+      <data key="d0" />
+      <data key="d1">150kV Aalborg Ãst</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.0332217389</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000;60000</data>
+      <data key="d9">57.0483420442</data>
+      <data key="d10">SRID=4326;POINT(10.033221738935 57.0483420442161)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="433">
+      <data key="d0" />
+      <data key="d1">150kV Magstrup</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.36552710831</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000;60000</data>
+      <data key="d9">55.2817333843</data>
+      <data key="d10">SRID=4326;POINT(9.36552710831004 55.2817333842631)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="7112">
+      <data key="d0" />
+      <data key="d1">Kabelovergangsstation Gistrup</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.0063719036</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">57.0066748173</data>
+      <data key="d10">SRID=4326;POINT(10.0063719036281 57.0066748172915)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="7113">
+      <data key="d0" />
+      <data key="d1">AvedÃ¸re VÃ¦rket</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">12.4832803054</data>
+      <data key="d5">DONG Energy</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000</data>
+      <data key="d9">55.6026367511</data>
+      <data key="d10">SRID=4326;POINT(12.4832803054194 55.6026367511219)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="7114">
+      <data key="d0" />
+      <data key="d1">150 kV FynsvÃ¦rket;FynsvÃ¦rket</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.4110938678</data>
+      <data key="d5">Vattenfall</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">60000;150000;60000</data>
+      <data key="d9">55.4299011679</data>
+      <data key="d10">SRID=4326;POINT(10.4110938678163 55.4299011679167)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="7115">
+      <data key="d0" />
+      <data key="d1">StudstrupvÃ¦rket</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.3466359633</data>
+      <data key="d5">DONG</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000;150000</data>
+      <data key="d9">56.2499174452</data>
+      <data key="d10">SRID=4326;POINT(10.3466359633368 56.2499174452301)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="7116">
+      <data key="d0" />
+      <data key="d1">400/150kV Ferslev</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.8791224458</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000;150000</data>
+      <data key="d9">56.9564882569</data>
+      <data key="d10">SRID=4326;POINT(9.87912244580067 56.9564882569138)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="7118">
+      <data key="d0" />
+      <data key="d1">60/15kV station Trige;400/220/150 kV Trige</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">10.1397884658</data>
+      <data key="d5">NRGi</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">60000;15000;400000;220000;150000</data>
+      <data key="d9">56.2745648629</data>
+      <data key="d10">SRID=4326;POINT(10.1397884658176 56.2745648628947)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="464">
+      <data key="d0" />
+      <data key="d1">JÃ¦vnstrÃ¸msstation Tjele</data>
+      <data key="d2" />
+      <data key="d3">TJE</data>
+      <data key="d4">9.56667735134</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">400000;350000;250000;150000</data>
+      <data key="d9">56.4786659842</data>
+      <data key="d10">SRID=4326;POINT(9.56667735133812 56.4786659841681)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="7121">
+      <data key="d0" />
+      <data key="d1">400kV SkÃ¦rbÃ¦kvÃ¦rket;SkÃ¦rbÃ¦kvÃ¦rket</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.61410305968</data>
+      <data key="d5">DONG</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000;400000</data>
+      <data key="d9">55.5125630573</data>
+      <data key="d10">SRID=4326;POINT(9.61410305968221 55.5125630573307)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="6612">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">12.2309672843</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">400000;400000;400000</data>
+      <data key="d9">55.6335570875</data>
+      <data key="d10">SRID=4326;POINT(12.2309672843228 55.6335570875336)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="7125">
+      <data key="d0" />
+      <data key="d1">150 kV VendsysselvÃ¦rket;NordjyllandsvÃ¦rket</data>
+      <data key="d2" />
+      <data key="d3">NVV</data>
+      <data key="d4">10.0409304308</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000</data>
+      <data key="d9">57.0750693324</data>
+      <data key="d10">SRID=4326;POINT(10.0409304307619 57.0750693323591)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="6615">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">12.227190677</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">400000;400000;400000</data>
+      <data key="d9">55.6328302769</data>
+      <data key="d10">SRID=4326;POINT(12.2271906770368 55.6328302768757)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="6616">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">12.2292912975</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">400000;400000;400000</data>
+      <data key="d9">55.6355932823</data>
+      <data key="d10">SRID=4326;POINT(12.2292912974972 55.6355932823096)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="473">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">12.5002585018</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">56.0829569081</data>
+      <data key="d10">SRID=4326;POINT(12.500258501766 56.0829569080653)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="7131">
+      <data key="d0" />
+      <data key="d1">Transformerplatform Anholt HavmÃ¸llepark;Anholt HavmÃ¸llepark</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">11.2105676483</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;33000</data>
+      <data key="d9">56.6036100456</data>
+      <data key="d10">SRID=4326;POINT(11.2105676482992 56.60361004563)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="476">
+      <data key="d0" />
+      <data key="d1">JÃ¦vnstrÃ¸msstation Vester Hassing</data>
+      <data key="d2" />
+      <data key="d3">Vester Hassing</data>
+      <data key="d4">10.0891473487</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;0</data>
+      <data key="d8">400000;150000</data>
+      <data key="d9">57.0631184576</data>
+      <data key="d10">SRID=4326;POINT(10.0891473487094 57.063118457649)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="7136">
+      <data key="d0" />
+      <data key="d1">AsnÃ¦svÃ¦rket;132kV AsnÃ¦svÃ¦rket;400kV AsnÃ¦svÃ¦rket</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">11.0860502342</data>
+      <data key="d5">DONG Energy</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">132000;400000</data>
+      <data key="d9">55.6621157546</data>
+      <data key="d10">SRID=4326;POINT(11.0860502342373 55.6621157545859)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="481">
+      <data key="d0" />
+      <data key="d1">Kabelovergangsstation Katberg</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.88174448044</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">56.6395545011</data>
+      <data key="d10">SRID=4326;POINT(9.88174448044202 56.6395545011239)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="496">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.28013172893</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">57.0174983713</data>
+      <data key="d10">SRID=4326;POINT(9.28013172892872 57.0174983712584)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="6651">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.43804451955</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">400000;150000;400000;150000</data>
+      <data key="d9">55.5177101754</data>
+      <data key="d10">SRID=4326;POINT(9.43804451954504 55.5177101753962)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="6652">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.43219918199</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">150000;400000;150000;400000</data>
+      <data key="d9">55.5167060681</data>
+      <data key="d10">SRID=4326;POINT(9.43219918199127 55.5167060681165)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="6655">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">9.42665037831</data>
+      <data key="d5">Energinet.dk</data>
+      <data key="d6" />
+      <data key="d7">50;50</data>
+      <data key="d8">400000;60000;400000;60000</data>
+      <data key="d9">55.496941867</data>
+      <data key="d10">SRID=4326;POINT(9.42665037831279 55.496941866967)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <edge source="512" target="370">
+      <data key="d13">7590</data>
+      <data key="d14" />
+      <data key="d15">2;1;2;1;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50;50;50;50</data>
+      <data key="d22">132000;132000;400000;132000;400000;132000;132000;400000;400000;400000;132000</data>
+      <data key="d23">6755.02017188158</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(12.2338269840318 55.7322921042696,12.3327915421278 55.7382531559339)</data>
+      <data key="d27">3;3;6;3;3;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="512" target="307">
+      <data key="d13">6871</data>
+      <data key="d14" />
+      <data key="d15">2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">400000;400000;400000</data>
+      <data key="d23">10555.9104774843</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(12.4989975910564 55.7523183427791,12.3327915421278 55.7382531559339)</data>
+      <data key="d27">3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="513" target="344">
+      <data key="d13">6777</data>
+      <data key="d14" />
+      <data key="d15">2;2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">400000;150000;400000;150000;400000;150000</data>
+      <data key="d23">13888.587946253</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.75184504898777 55.8618282345635,9.55941148210444 55.7971580785763)</data>
+      <data key="d27">6;6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="513" target="347">
+      <data key="d13">7665</data>
+      <data key="d14" />
+      <data key="d15">2;2;2;2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50</data>
+      <data key="d22">150000;400000;150000;400000;150000;400000;400000;150000</data>
+      <data key="d23">12601.5290149383</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.4768281944557 55.7085069280626,9.55941148210444 55.7971580785763)</data>
+      <data key="d27">3;6;6;3;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6661" target="304">
+      <data key="d13">4412</data>
+      <data key="d14" />
+      <data key="d15">2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">400000;400000</data>
+      <data key="d23">2760.6743148415</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.66958348471734 55.5351737128592,9.6297834490703 55.5472209454162)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6661" target="343">
+      <data key="d13">7190</data>
+      <data key="d14" />
+      <data key="d15">2;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000;150000</data>
+      <data key="d23">2339.98492165424</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.59541892594147 55.5562202475477,9.6297834490703 55.5472209454162)</data>
+      <data key="d27">3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6657" target="404">
+      <data key="d13">7216</data>
+      <data key="d14" />
+      <data key="d15">2;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000;150000</data>
+      <data key="d23">1382.48009200041</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.0590749384533 56.1680679640957,10.0581035901366 56.1554277502561)</data>
+      <data key="d27">3;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6657" target="6757">
+      <data key="d13">5287</data>
+      <data key="d14" />
+      <data key="d15">2;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000;150000</data>
+      <data key="d23">3938.36087700491</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.0581035901366 56.1554277502561,10.0364002928722 56.1221870819766)</data>
+      <data key="d27">3;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6679" target="6680">
+      <data key="d13">5680</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000</data>
+      <data key="d23">519.162246883827</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.0292814137402 57.0642771604087,10.0263891978514 57.0598793841276)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6679" target="427">
+      <data key="d13">4333</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">150000;150000</data>
+      <data key="d23">1901.85408142021</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(10.033221738935 57.0483420442161,10.0292814137402 57.0642771604087)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6679" target="6743">
+      <data key="d13">4364</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">400000;150000;400000;150000;400000;150000</data>
+      <data key="d23">1449.2348444505</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.0292814137402 57.0642771604087,10.0498612779102 57.0709056878174)</data>
+      <data key="d27">3;3;3;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6680" target="427">
+      <data key="d13">7167</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000</data>
+      <data key="d23">1359.54030535707</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.033221738935 57.0483420442161,10.0263891978514 57.0598793841276)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6680" target="7125">
+      <data key="d13">7152</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">400000;400000;400000</data>
+      <data key="d23">1657.87744124644</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.0263891978514 57.0598793841276,10.0409304307619 57.0750693323591)</data>
+      <data key="d27">3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="8197" target="328">
+      <data key="d13">4321</data>
+      <data key="d14" />
+      <data key="d15">2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">400000;400000</data>
+      <data key="d23">39409.0547491659</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.96833710038572 55.4110535202294,10.5034835512255 55.3639539585843)</data>
+      <data key="d27">3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="8197" target="418">
+      <data key="d13">7238</data>
+      <data key="d14" />
+      <data key="d15">1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">150000;150000;150000</data>
+      <data key="d23">5.62404905226338</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.5055942554842 55.3658824163426,10.5034835512255 55.3639539585843)</data>
+      <data key="d27">3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="549" target="496">
+      <data key="d13">7207</data>
+      <data key="d14" />
+      <data key="d15">2;1</data>
+      <data key="d16" />
+      <data key="d17">HVDC Cross-Skagerak</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">0</data>
+      <data key="d22">350000;250000</data>
+      <data key="d23">1372.58535688011</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.28013172892872 57.0174983712584,9.29268375927118 57.0061252407252)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="549" target="1206">
+      <data key="d13">7206</data>
+      <data key="d14" />
+      <data key="d15">2;1</data>
+      <data key="d16" />
+      <data key="d17">HVDC Cross-Skagerak</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">0</data>
+      <data key="d22">350000;250000</data>
+      <data key="d23">2140.01219379602</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.29268375927118 57.0061252407252,9.30717943839236 56.9885198267768)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="8231" target="473">
+      <data key="d13">7689</data>
+      <data key="d14" />
+      <data key="d15">2;2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50</data>
+      <data key="d22">400000;400000;400000;400000;400000</data>
+      <data key="d23">34991.6472116677</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(12.500258501766 56.0829569080653,12.2104998615848 55.8955321424946)</data>
+      <data key="d27">6;3;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="8231" target="595">
+      <data key="d13">7690</data>
+      <data key="d14" />
+      <data key="d15">2;2;2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50</data>
+      <data key="d22">400000;400000;400000;400000;400000;400000</data>
+      <data key="d23">568.043237998125</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(12.199280845676 55.8946407627485,12.2104998615848 55.8955321424946)</data>
+      <data key="d27">3;3;6;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6698" target="394">
+      <data key="d13">7529</data>
+      <data key="d14" />
+      <data key="d15">2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">400000;150000;400000;150000</data>
+      <data key="d23">8610.30873483297</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.4396818788134 55.5189950881557,9.54708798196297 55.5639789770905)</data>
+      <data key="d27">3;3;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6698" target="6651">
+      <data key="d13">6173</data>
+      <data key="d14" />
+      <data key="d15">2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000</data>
+      <data key="d23">175.395415385655</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.43804451954504 55.5177101753962,9.4396818788134 55.5189950881557)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6703" target="433">
+      <data key="d13">7211</data>
+      <data key="d14" />
+      <data key="d15">2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000</data>
+      <data key="d23">349.50600325226</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.36552710831004 55.2817333842631,9.36261693772477 55.2780051633651)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6703" target="346">
+      <data key="d13">7558</data>
+      <data key="d14" />
+      <data key="d15">2;1;2;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">150000;400000;150000;400000;150000</data>
+      <data key="d23">28630.3236403547</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.27065600820016 55.0370036559271,9.36261693772477 55.2780051633651)</data>
+      <data key="d27">3;3;3;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="1080" target="328">
+      <data key="d13">6717</data>
+      <data key="d14" />
+      <data key="d15">2;2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50</data>
+      <data key="d22">400000;400000;400000;400000</data>
+      <data key="d23">13193.80696853</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.96833710038572 55.4110535202294,9.79027341564784 55.4706098974984)</data>
+      <data key="d27">3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="1080" target="304">
+      <data key="d13">5091</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">400000;400000;400000</data>
+      <data key="d23">11985.9589708023</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.66958348471734 55.5351737128592,9.79027341564784 55.4706098974984)</data>
+      <data key="d27">6;2;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6715" target="355">
+      <data key="d13">5666</data>
+      <data key="d14" />
+      <data key="d15">1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">220000;150000</data>
+      <data key="d23">9046.10487202815</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(9.43342182553821 55.0187664566824,9.3905574176698 54.9423007591471)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6715" target="6716">
+      <data key="d13">6896</data>
+      <data key="d14" />
+      <data key="d15">1;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">150000;150000;150000</data>
+      <data key="d23">279.349836938742</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.3905574176698 54.9423007591471,9.38970617410657 54.9398291786814)</data>
+      <data key="d27">3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6715" target="6918">
+      <data key="d13">6004</data>
+      <data key="d14" />
+      <data key="d15">1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">220000</data>
+      <data key="d23">298.084782120761</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(9.3905574176698 54.9423007591471,9.38950584979821 54.9396818532807)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="572" target="418">
+      <data key="d13">4654</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">StorebÃ¦lt I</data>
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">0;0;0;0;0</data>
+      <data key="d22">400000;400000;400000;400000;400000</data>
+      <data key="d23">55275.6955033144</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.5055942554842 55.3658824163426,11.3151423774352 55.5316191345104)</data>
+      <data key="d27">1;1</data>
+      <data key="d28" />
+    </edge>
+    <edge source="572" target="373">
+      <data key="d13">7654</data>
+      <data key="d14" />
+      <data key="d15">2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50</data>
+      <data key="d22">400000;400000;400000;400000;400000</data>
+      <data key="d23">46228.1123148382</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(11.3151423774352 55.5316191345104,12.0074139354373 55.4515224273292)</data>
+      <data key="d27">3;3;6;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="572" target="750">
+      <data key="d13">7671</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50</data>
+      <data key="d22">400000;400000;400000;400000;400000</data>
+      <data key="d23">19730.2816104922</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(11.3151423774352 55.5316191345104,11.0920074465663 55.6491521833871)</data>
+      <data key="d27">3;3;3;6;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6717" target="690">
+      <data key="d13">6731</data>
+      <data key="d14" />
+      <data key="d15">1;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">220000;220000</data>
+      <data key="d23">10834.1012250844</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(9.35579683825621 54.8473628205603,9.38942221664526 54.9394735842978)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6717" target="346">
+      <data key="d13">7519</data>
+      <data key="d14" />
+      <data key="d15">2;2;2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50</data>
+      <data key="d22">220000;220000;220000;220000;220000;220000;150000</data>
+      <data key="d23">13343.0100224984</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.27065600820016 55.0370036559271,9.38942221664526 54.9394735842978)</data>
+      <data key="d27">1;3;3;1;3;1;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6717" target="6917">
+      <data key="d13">6052</data>
+      <data key="d14" />
+      <data key="d15">1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">220000</data>
+      <data key="d23">23.3113456266898</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(9.38942221664526 54.9394735842978,9.38958166760819 54.9396731840284)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6717" target="6918">
+      <data key="d13">6003</data>
+      <data key="d14" />
+      <data key="d15">1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">220000</data>
+      <data key="d23">22.6503899959289</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(9.38942221664526 54.9394735842978,9.38950584979821 54.9396818532807)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6735" target="464">
+      <data key="d13">6175</data>
+      <data key="d14" />
+      <data key="d15">2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000</data>
+      <data key="d23">34610.0054400084</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.6271768974419 56.7859146660952,9.56667735133812 56.4786659841681)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6735" target="359">
+      <data key="d13">7601</data>
+      <data key="d14" />
+      <data key="d15">2;1;2;1;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50</data>
+      <data key="d22">150000;400000;400000;150000;150000</data>
+      <data key="d23">1969.66873270786</data>
+      <data key="d24">line</data>
+      <data key="d25">energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.6271768974419 56.7859146660952,9.61641256387356 56.8035518723668)</data>
+      <data key="d27">3;3;6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="593" target="7113">
+      <data key="d13">7691</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000</data>
+      <data key="d23">5787.89121831158</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(12.4083232634447 55.631200975701,12.4832803054194 55.6026367511219)</data>
+      <data key="d27" />
+      <data key="d28" />
+    </edge>
+    <edge source="593" target="282">
+      <data key="d13">7531</data>
+      <data key="d14" />
+      <data key="d15">1;1;1;1;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50;50;50</data>
+      <data key="d22">132000;132000;132000;132000;132000;132000;132000;132000;132000</data>
+      <data key="d23">6006.44798686391</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(12.4083232634447 55.631200975701,12.3205422429875 55.6323740553215)</data>
+      <data key="d27">3;3;3;3;3;6;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="595" target="603">
+      <data key="d13">7674</data>
+      <data key="d14" />
+      <data key="d15">2;2;2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50</data>
+      <data key="d22">400000;400000;400000;400000</data>
+      <data key="d23">13006.3624663674</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(12.199280845676 55.8946407627485,12.1900487681101 55.7912433712444)</data>
+      <data key="d27">3;6;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6741" target="464">
+      <data key="d13">7651</data>
+      <data key="d14" />
+      <data key="d15">2;2;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50</data>
+      <data key="d22">400000;150000;400000;150000;150000;150000</data>
+      <data key="d23">8382.29603236248</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.43865151118252 56.5050551602766,9.56667735133812 56.4786659841681)</data>
+      <data key="d27">3;3;6;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6741" target="357">
+      <data key="d13">5080</data>
+      <data key="d14" />
+      <data key="d15">2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">400000;400000;400000</data>
+      <data key="d23">63752.4831746559</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.43865151118252 56.5050551602766,8.55361040290223 56.3515962292357)</data>
+      <data key="d27">3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6743" target="362">
+      <data key="d13">6741</data>
+      <data key="d14" />
+      <data key="d15">3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">400000;400000</data>
+      <data key="d23">508.346281839856</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.0483333728385 57.0771637522503,10.0498612779102 57.0709056878174)</data>
+      <data key="d27">3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6743" target="7125">
+      <data key="d13">4365</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">150000;150000</data>
+      <data key="d23">363.71888487264</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(10.0498612779102 57.0709056878174,10.0409304307619 57.0750693323591)</data>
+      <data key="d27">3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="603" target="370">
+      <data key="d13">7696</data>
+      <data key="d14" />
+      <data key="d15">2;2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50</data>
+      <data key="d22">400000;400000;132000;132000;132000;400000;400000;400000</data>
+      <data key="d23">7123.08982116523</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(12.2338269840318 55.7322921042696,12.1900487681101 55.7912433712444)</data>
+      <data key="d27">3;3;3;3;3;3;6;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6754" target="376">
+      <data key="d13">7641</data>
+      <data key="d14" />
+      <data key="d15">2;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50</data>
+      <data key="d22">150000;150000;400000;400000;400000;150000;400000</data>
+      <data key="d23">16003.6386257269</data>
+      <data key="d24">line</data>
+      <data key="d25">energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.118287210743 56.3051423942401,9.99910834372248 56.4311794651573)</data>
+      <data key="d27">3;3;3;3;3;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6754" target="902">
+      <data key="d13">7563</data>
+      <data key="d14" />
+      <data key="d15">2;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">220000;400000;150000</data>
+      <data key="d23">62536.889802267</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.118287210743 56.3051423942401,10.9201811714716 56.4267402698332)</data>
+      <data key="d27">3;3;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6757" target="6759">
+      <data key="d13">6450</data>
+      <data key="d14" />
+      <data key="d15">2;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000;150000</data>
+      <data key="d23">347.35075795699</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.0364002928722 56.1221870819766,10.0345047577912 56.1192420543653)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="1126" target="1180">
+      <data key="d13">7622</data>
+      <data key="d14" />
+      <data key="d15">3;3;3;3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50</data>
+      <data key="d22">400000;400000;400000;400000;400000;400000;400000;400000;400000</data>
+      <data key="d23">31524.3586930932</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.37452424180092 56.1915239562882,9.57563589309609 56.4359046949547)</data>
+      <data key="d27">6;3;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6759" target="6762">
+      <data key="d13">7688</data>
+      <data key="d14" />
+      <data key="d15">2;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000;150000</data>
+      <data key="d23">4086.83528342502</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.0345047577912 56.1192420543653,10.0675037409327 56.0891007447664)</data>
+      <data key="d27">3;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6760" target="345">
+      <data key="d13">7618</data>
+      <data key="d14" />
+      <data key="d15">1;2;2;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">150000;400000;400000;150000;400000</data>
+      <data key="d23">6812.60313161728</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.0708710757752 56.0873518626361,10.1395999696427 56.0476585477885)</data>
+      <data key="d27">6;3;3;6;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6760" target="6762">
+      <data key="d13">5519</data>
+      <data key="d14" />
+      <data key="d15">2;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000;150000</data>
+      <data key="d23">284.994833650064</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.0708710757752 56.0873518626361,10.0675037409327 56.0891007447664)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="1156" target="458">
+      <data key="d13">7614</data>
+      <data key="d14" />
+      <data key="d15">3;3;3;3;3;3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">400000;400000;400000;400000;400000;400000;400000;400000;400000;400000</data>
+      <data key="d23">28089.3692966539</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.34945489215334 56.1576208040498,9.18343351506521 55.9299545918988)</data>
+      <data key="d27">3;3;6;3;3;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="1178" target="464">
+      <data key="d13">7623</data>
+      <data key="d14" />
+      <data key="d15">3;3;3;3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">400000;400000;400000;400000;400000;400000;400000</data>
+      <data key="d23">2522.35853067785</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.57020185057551 56.4526117740696,9.56667735133812 56.4786659841681)</data>
+      <data key="d27">3;3;3;6;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="1178" target="1180">
+      <data key="d13">3986</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000</data>
+      <data key="d23">1763.21262427122</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.57020185057551 56.4526117740696,9.57563589309609 56.4359046949547)</data>
+      <data key="d27" />
+      <data key="d28" />
+    </edge>
+    <edge source="1206" target="464">
+      <data key="d13">7583</data>
+      <data key="d14" />
+      <data key="d15">2;1;2;1</data>
+      <data key="d16" />
+      <data key="d17">HVDC Cross-Skagerak;HVDC Cross-Skagerak</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">0;0</data>
+      <data key="d22">350000;250000;0;350000;250000</data>
+      <data key="d23">63309.866418477</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.56667735133812 56.4786659841681,9.30717943839236 56.9885198267768)</data>
+      <data key="d27">6;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="1209" target="394">
+      <data key="d13">6771</data>
+      <data key="d14" />
+      <data key="d15">2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">400000;150000;400000;150000</data>
+      <data key="d23">12649.0729108464</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.54708798196297 55.5639789770905,9.4762361507302 55.665060341209)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="1209" target="347">
+      <data key="d13">7664</data>
+      <data key="d14" />
+      <data key="d15">2;2;2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50</data>
+      <data key="d22">400000;400000;150000;150000;400000;150000</data>
+      <data key="d23">4707.6396923567</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.4768281944557 55.7085069280626,9.4762361507302 55.665060341209)</data>
+      <data key="d27">3;6;3;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="458" target="707">
+      <data key="d13">7595</data>
+      <data key="d14" />
+      <data key="d15">3;3;3;3;3;3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50</data>
+      <data key="d22">400000;400000;400000;400000;400000;400000;400000;400000;400000;400000</data>
+      <data key="d23">50528.3408945462</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.16492500057881 55.5044214291938,9.18343351506521 55.9299545918988)</data>
+      <data key="d27">6;3;3;3;3;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="707" target="848">
+      <data key="d13">6729</data>
+      <data key="d14" />
+      <data key="d15">2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">400000;400000;400000</data>
+      <data key="d23">15860.533358712</data>
+      <data key="d24">line</data>
+      <data key="d25">energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(8.91821835889113 55.5283253746435,9.16492500057881 55.5044214291938)</data>
+      <data key="d27">3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="707" target="922">
+      <data key="d13">7547</data>
+      <data key="d14" />
+      <data key="d15">3;3;3;3;3;3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">KAS5-REV5 1</data>
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50;50;50;50</data>
+      <data key="d22">400000;400000;400000;400000;400000;400000;400000;400000;400000;400000;400000</data>
+      <data key="d23">2425.83344877208</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.16492500057881 55.5044214291938,9.18312810915022 55.4832645828548)</data>
+      <data key="d27">3;3;3;3;3;6;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6656" target="433">
+      <data key="d13">7210</data>
+      <data key="d14" />
+      <data key="d15">2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000</data>
+      <data key="d23">22496.9647058555</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.36552710831004 55.2817333842631,9.44676383718729 55.4625707934161)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6656" target="6655">
+      <data key="d13">6181</data>
+      <data key="d14" />
+      <data key="d15">2;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000;60000</data>
+      <data key="d23">4253.2730676141</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.42665037831279 55.496941866967,9.44676383718729 55.4625707934161)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="750" target="7136">
+      <data key="d13">7014</data>
+      <data key="d14" />
+      <data key="d15">1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">132000;132000;132000</data>
+      <data key="d23">968.924647461208</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(11.0920074465663 55.6491521833871,11.0860502342373 55.6621157545859)</data>
+      <data key="d27">3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="772" target="7113">
+      <data key="d13">1278</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000</data>
+      <data key="d23">7680.92069631152</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(12.5561020541503 55.6568292716723,12.4832803054194 55.6026367511219)</data>
+      <data key="d27" />
+      <data key="d28" />
+    </edge>
+    <edge source="6917" target="6716">
+      <data key="d13">6053</data>
+      <data key="d14" />
+      <data key="d15">1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">220000</data>
+      <data key="d23">17.965358702401</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(9.38970617410657 54.9398291786814,9.38958166760819 54.9396731840284)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6917" target="6918">
+      <data key="d13">6681</data>
+      <data key="d14" />
+      <data key="d15">1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">220000</data>
+      <data key="d23">3.80273207633976</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(9.38958166760819 54.9396731840284,9.38950584979821 54.9396818532807)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="282" target="6612">
+      <data key="d13">7580</data>
+      <data key="d14" />
+      <data key="d15">2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50</data>
+      <data key="d22">400000;400000;400000;400000;400000</data>
+      <data key="d23">5478.29777111226</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(12.3205422429875 55.6323740553215,12.2309672843228 55.6335570875336)</data>
+      <data key="d27">3;3;3;3;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="288" target="464">
+      <data key="d13">7581</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17">HVDC Skagerrak 4;HVDC Skagerrak 4</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">0;0</data>
+      <data key="d22">400000;0;400000</data>
+      <data key="d23">85603.4654149574</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.56667735133812 56.4786659841681,9.06630559059122 57.1261712321038)</data>
+      <data key="d27">2;1</data>
+      <data key="d28" />
+    </edge>
+    <edge source="288" target="496">
+      <data key="d13">7675</data>
+      <data key="d14" />
+      <data key="d15">2;1;2;1</data>
+      <data key="d16" />
+      <data key="d17">HVDC Cross-Skagerak;HVDC Cross-Skagerak;HVDC Cross-Skagerak;HVDC Cross-Skagerak;HVDC Cross-Skagerak</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">0;0;0;0;0;0;0</data>
+      <data key="d22">350000;350000;250000;350000;350000;250000;250000;250000</data>
+      <data key="d23">17964.02489589</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.28013172892872 57.0174983712584,9.06630559059122 57.1261712321038)</data>
+      <data key="d27">1;2;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="304" target="343">
+      <data key="d13">7110</data>
+      <data key="d14" />
+      <data key="d15">2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">400000;400000</data>
+      <data key="d23">5122.30820683341</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.66958348471734 55.5351737128592,9.59541892594147 55.5562202475477)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="319" target="368">
+      <data key="d13">6847</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17">HVDC Konti-Skan;Konti-Skan;Konti-Skan;HVDC Konti-Skan;HVDC Konti-Skan</data>
+      <data key="d18">Konti-Skan</data>
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">0;0;0;0;0;0</data>
+      <data key="d22">300000;285000;300000;285000;300000;285000;300000;285000;300000;285000;300000;285000</data>
+      <data key="d23">17296.9711585563</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(11.1265426284018 57.3089859545459,10.9035830023748 57.2523816601803)</data>
+      <data key="d27">2;2;2;3;2;2</data>
+      <data key="d28" />
+    </edge>
+    <edge source="480" target="481">
+      <data key="d13">6873</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">150000;150000</data>
+      <data key="d23">2558.73556305026</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(9.88476519883666 56.6624785741739,9.88174448044202 56.6395545011239)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="480" target="349">
+      <data key="d13">6760</data>
+      <data key="d14" />
+      <data key="d15">2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50;50</data>
+      <data key="d22">400000;400000;400000;400000;400000;400000;400000</data>
+      <data key="d23">25612.8205163523</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.70723201570102 56.8176335097314,9.88476519883666 56.6624785741739)</data>
+      <data key="d27">3;3;6;3;6;6;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="328" target="418">
+      <data key="d13">7662</data>
+      <data key="d14" />
+      <data key="d15">2;2;2;2;2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50;50;50</data>
+      <data key="d22">400000;400000;400000;400000;400000;400000;400000</data>
+      <data key="d23">39417.9168880736</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.5055942554842 55.3658824163426,9.96833710038572 55.4110535202294)</data>
+      <data key="d27">3;1;3;1;3;1</data>
+      <data key="d28" />
+    </edge>
+    <edge source="335" target="7112">
+      <data key="d13">7695</data>
+      <data key="d14" />
+      <data key="d15">2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">400000;400000;400000</data>
+      <data key="d23">8128.01303775294</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.89625883976098 56.9896628220492,10.0063719036281 57.0066748172915)</data>
+      <data key="d27">3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="335" target="7116">
+      <data key="d13">7588</data>
+      <data key="d14" />
+      <data key="d15">2;2;2;2;2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50;50</data>
+      <data key="d22">400000;400000;400000;400000;400000;400000</data>
+      <data key="d23">3682.27523335212</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.87912244580067 56.9564882569138,9.89625883976098 56.9896628220492)</data>
+      <data key="d27">3;6;3;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="848" target="380">
+      <data key="d13">7582</data>
+      <data key="d14" />
+      <data key="d15">2;2;2;1;2;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50;50;50</data>
+      <data key="d22">150000;400000;150000;400000;400000;150000;400000;150000;400000;150000;150000;150000</data>
+      <data key="d23">13241.6458493609</data>
+      <data key="d24">line</data>
+      <data key="d25">energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(8.70643645186533 55.5315716784965,8.91821835889113 55.5283253746435)</data>
+      <data key="d27">3;3;3;6;3;3;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="343" target="394">
+      <data key="d13">7109</data>
+      <data key="d14" />
+      <data key="d15">2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">400000;400000</data>
+      <data key="d23">2970.49018159866</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.59541892594147 55.5562202475477,9.54708798196297 55.5639789770905)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="344" target="345">
+      <data key="d13">7621</data>
+      <data key="d14" />
+      <data key="d15">2;2;2;2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50</data>
+      <data key="d22">150000;150000;400000;150000;400000;400000</data>
+      <data key="d23">33650.3438076623</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.75184504898777 55.8618282345635,10.1395999696427 56.0476585477885)</data>
+      <data key="d27">3;3;6;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="346" target="355">
+      <data key="d13">7512</data>
+      <data key="d14" />
+      <data key="d15">1;1;1;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">150000;150000;150000;150000;150000;150000</data>
+      <data key="d23">10725.2929478806</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(9.27065600820016 55.0370036559271,9.43342182553821 55.0187664566824)</data>
+      <data key="d27">3;6;3;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="346" target="923">
+      <data key="d13">7639</data>
+      <data key="d14" />
+      <data key="d15">3;3;3;3;3;3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">KAS5-REV5 2</data>
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50;50;50</data>
+      <data key="d22">400000;400000;400000;400000;400000;400000;400000;400000;400000</data>
+      <data key="d23">49298.0997213966</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.27065600820016 55.0370036559271,9.1897143490692 55.4624886155399)</data>
+      <data key="d27">3;3;3;3;3;3;3;6;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="349" target="7116">
+      <data key="d13">7608</data>
+      <data key="d14" />
+      <data key="d15">2;2;2;1;2;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50;50;50;50;50;50</data>
+      <data key="d22">150000;400000;400000;400000;400000;400000;150000;150000;400000;400000;400000;150000;400000</data>
+      <data key="d23">19055.8617902211</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.70723201570102 56.8176335097314,9.87912244580067 56.9564882569138)</data>
+      <data key="d27">3;3;6;6;3;3;3;3;3;6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="359" target="7116">
+      <data key="d13">7579</data>
+      <data key="d14" />
+      <data key="d15">2;1;2;1;1;2;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50</data>
+      <data key="d22">400000;150000;400000;150000;400000;150000</data>
+      <data key="d23">24535.5252713321</data>
+      <data key="d24">line</data>
+      <data key="d25">energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.61641256387356 56.8035518723668,9.87912244580067 56.9564882569138)</data>
+      <data key="d27">3;6;3;6;3;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="362" target="476">
+      <data key="d13">7653</data>
+      <data key="d14" />
+      <data key="d15">3;2;3;2;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50;50</data>
+      <data key="d22">400000;400000;400000;400000;400000;400000</data>
+      <data key="d23">2574.10764648018</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.0483333728385 57.0771637522503,10.0891473487094 57.063118457649)</data>
+      <data key="d27">3;3;3;3;6;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="362" target="7125">
+      <data key="d13">7151</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">400000;400000;400000</data>
+      <data key="d23">138.647215775121</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.0483333728385 57.0771637522503,10.0409304307619 57.0750693323591)</data>
+      <data key="d27">3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="367" target="368">
+      <data key="d13">6848</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17">Konti-Skan;HVDC Konti-Skan;Konti-Skan;HVDC Konti-Skan;HVDC Konti-Skan</data>
+      <data key="d18">Konti-Skan</data>
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">0;0;0;0;0;0</data>
+      <data key="d22">300000;285000;300000;285000;300000;285000;300000;285000;300000;285000;300000;285000</data>
+      <data key="d23">21831.8878447619</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.5414383758479 57.2337800066222,10.9035830023748 57.2523816601803)</data>
+      <data key="d27">2;2;2;3;2;2</data>
+      <data key="d28" />
+    </edge>
+    <edge source="367" target="476">
+      <data key="d13">6849</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17">Konti-Skan;HVDC Konti-Skan;Konti-Skan;HVDC Konti-Skan;HVDC Konti-Skan</data>
+      <data key="d18">Konti-Skan</data>
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">0;0;0;0;0;0</data>
+      <data key="d22">300000;285000;300000;285000;300000;285000;300000;285000;300000;285000;300000;285000</data>
+      <data key="d23">33823.0289329634</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.5414383758479 57.2337800066222,10.0891473487094 57.063118457649)</data>
+      <data key="d27">2;2;2;3;2;2</data>
+      <data key="d28" />
+    </edge>
+    <edge source="370" target="6616">
+      <data key="d13">7589</data>
+      <data key="d14" />
+      <data key="d15">2;2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">400000;400000;400000;400000;400000</data>
+      <data key="d23">10892.4645139666</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(12.2338269840318 55.7322921042696,12.2292912974972 55.6355932823096)</data>
+      <data key="d27">3;3;3;6;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="373" target="6615">
+      <data key="d13">7631</data>
+      <data key="d14" />
+      <data key="d15">2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">400000;400000;400000;400000;400000</data>
+      <data key="d23">25915.9872516639</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(12.0074139354373 55.4515224273292,12.2271906770368 55.6328302768757)</data>
+      <data key="d27">3;3;6;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="375" target="376">
+      <data key="d13">6768</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">400000;400000;400000</data>
+      <data key="d23">4255.44658475171</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.98127962172185 56.4688075359165,9.99910834372248 56.4311794651573)</data>
+      <data key="d27">6;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="375" target="481">
+      <data key="d13">7612</data>
+      <data key="d14" />
+      <data key="d15">1;2;1;2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50;50;50;50;50;50;50</data>
+      <data key="d22">400000;150000;400000;150000;400000;400000;400000;400000;150000;400000;400000;400000;400000;400000</data>
+      <data key="d23">20239.4187929832</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.98127962172185 56.4688075359165,9.88174448044202 56.6395545011239)</data>
+      <data key="d27">6;3;3;3;6;6;3;6;3;3;3;3;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="902" target="7131">
+      <data key="d13">1607</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">220000</data>
+      <data key="d23">24110.6981778736</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.9201811714716 56.4267402698332,11.2105676482992 56.60361004563)</data>
+      <data key="d27">1</data>
+      <data key="d28" />
+    </edge>
+    <edge source="394" target="7121">
+      <data key="d13">7604</data>
+      <data key="d14" />
+      <data key="d15">2;1;1;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">400000;150000;150000;400000</data>
+      <data key="d23">6654.83044956872</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.61410305968221 55.5125630573307,9.54708798196297 55.5639789770905)</data>
+      <data key="d27">6;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="404" target="7118">
+      <data key="d13">7676</data>
+      <data key="d14" />
+      <data key="d15">2;2;1;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">400000;400000;150000;150000</data>
+      <data key="d23">13134.2679388397</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.0590749384533 56.1680679640957,10.1397884658176 56.2745648628947)</data>
+      <data key="d27">3;3;6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="922" target="923">
+      <data key="d13">7021</data>
+      <data key="d14" />
+      <data key="d15">3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">KAS5-REV5 1</data>
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">400000;400000;400000</data>
+      <data key="d23">2238.67879356335</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.18312810915022 55.4832645828548,9.1897143490692 55.4624886155399)</data>
+      <data key="d27">3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="418" target="7114">
+      <data key="d13">7525</data>
+      <data key="d14" />
+      <data key="d15">2;2;2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50</data>
+      <data key="d22">400000;400000;400000;400000</data>
+      <data key="d23">13073.7747400497</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(10.4110938678163 55.4299011679167,10.5055942554842 55.3658824163426)</data>
+      <data key="d27">1;1;1;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="427" target="7112">
+      <data key="d13">6877</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21" />
+      <data key="d22">150000;150000</data>
+      <data key="d23">4731.79569460135</data>
+      <data key="d24">line</data>
+      <data key="d25">NV Net</data>
+      <data key="d26">SRID=4326;LINESTRING(10.033221738935 57.0483420442161,10.0063719036281 57.0066748172915)</data>
+      <data key="d27" />
+      <data key="d28" />
+    </edge>
+    <edge source="427" target="476">
+      <data key="d13">4772</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">150000;150000;150000</data>
+      <data key="d23">4941.3690878065</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(10.033221738935 57.0483420442161,10.0891473487094 57.063118457649)</data>
+      <data key="d27" />
+      <data key="d28" />
+    </edge>
+    <edge source="7115" target="7118">
+      <data key="d13">7634</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">150000;150000;150000;150000;150000</data>
+      <data key="d23">12965.5668765713</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(10.3466359633368 56.2499174452301,10.1397884658176 56.2745648628947)</data>
+      <data key="d27">3;3;6;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6612" target="6616">
+      <data key="d13">6464</data>
+      <data key="d14" />
+      <data key="d15">2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000</data>
+      <data key="d23">248.943292939324</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(12.2309672843228 55.6335570875336,12.2292912974972 55.6355932823096)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6612" target="6615">
+      <data key="d13">5868</data>
+      <data key="d14" />
+      <data key="d15">2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000</data>
+      <data key="d23">250.120953053688</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(12.2309672843228 55.6335570875336,12.2271906770368 55.6328302768757)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6615" target="6616">
+      <data key="d13">5352</data>
+      <data key="d14" />
+      <data key="d15">2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000</data>
+      <data key="d23">333.734206327665</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(12.2271906770368 55.6328302768757,12.2292912974972 55.6355932823096)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6651" target="6652">
+      <data key="d13">6213</data>
+      <data key="d14" />
+      <data key="d15">2;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000;150000</data>
+      <data key="d23">384.662753584465</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.43804451954504 55.5177101753962,9.43219918199127 55.5167060681165)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6652" target="6655">
+      <data key="d13">5812</data>
+      <data key="d14" />
+      <data key="d15">2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">400000</data>
+      <data key="d23">2244.37599426798</data>
+      <data key="d24">line</data>
+      <data key="d25">Energinet.dk</data>
+      <data key="d26">SRID=4326;LINESTRING(9.43219918199127 55.5167060681165,9.42665037831279 55.496941866967)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+  </graph>
+</graphml>

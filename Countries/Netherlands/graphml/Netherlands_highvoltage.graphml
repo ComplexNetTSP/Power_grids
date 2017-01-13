@@ -1,0 +1,3217 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="rohmkm" attr.type="string" for="edge" id="d28" />
+  <key attr.name="cables" attr.type="string" for="edge" id="d27" />
+  <key attr.name="wktsrid4326" attr.type="string" for="edge" id="d26" />
+  <key attr.name="operator" attr.type="string" for="edge" id="d25" />
+  <key attr.name="type" attr.type="string" for="edge" id="d24" />
+  <key attr.name="lengthm" attr.type="string" for="edge" id="d23" />
+  <key attr.name="voltage" attr.type="string" for="edge" id="d22" />
+  <key attr.name="frequency" attr.type="string" for="edge" id="d21" />
+  <key attr.name="cnfkm" attr.type="string" for="edge" id="d20" />
+  <key attr.name="fromrelation" attr.type="string" for="edge" id="d19" />
+  <key attr.name="ref" attr.type="string" for="edge" id="d18" />
+  <key attr.name="name" attr.type="string" for="edge" id="d17" />
+  <key attr.name="xohmkm" attr.type="string" for="edge" id="d16" />
+  <key attr.name="wires" attr.type="string" for="edge" id="d15" />
+  <key attr.name="ithmaxa" attr.type="string" for="edge" id="d14" />
+  <key attr.name="lid" attr.type="string" for="edge" id="d13" />
+  <key attr.name="netcapacity" attr.type="string" for="node" id="d12" />
+  <key attr.name="typ" attr.type="string" for="node" id="d11" />
+  <key attr.name="wktsrid4326" attr.type="string" for="node" id="d10" />
+  <key attr.name="lat" attr.type="string" for="node" id="d9" />
+  <key attr.name="voltage" attr.type="string" for="node" id="d8" />
+  <key attr.name="frequency" attr.type="string" for="node" id="d7" />
+  <key attr.name="ngen" attr.type="string" for="node" id="d6" />
+  <key attr.name="operator" attr.type="string" for="node" id="d5" />
+  <key attr.name="lon" attr.type="string" for="node" id="d4" />
+  <key attr.name="ref" attr.type="string" for="node" id="d3" />
+  <key attr.name="source" attr.type="string" for="node" id="d2" />
+  <key attr.name="name" attr.type="string" for="node" id="d1" />
+  <key attr.name="capacity" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="520">
+      <data key="d0" />
+      <data key="d1">110kV Tusveld</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.67933076486</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">110000</data>
+      <data key="d9">52.321041768</data>
+      <data key="d10">SRID=4326;POINT(6.67933076485524 52.3210417680287)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="522">
+      <data key="d0" />
+      <data key="d1">110kV Marssteden</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.8306731669</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">110000</data>
+      <data key="d9">52.2139014996</data>
+      <data key="d10">SRID=4326;POINT(6.83067316690019 52.2139014995887)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="551">
+      <data key="d0" />
+      <data key="d1">Eemshaven Oost</data>
+      <data key="d2" />
+      <data key="d3">EHA</data>
+      <data key="d4">6.86968310741</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000</data>
+      <data key="d9">53.4299869189</data>
+      <data key="d10">SRID=4326;POINT(6.86968310741081 53.4299869189259)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="6192">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.47436404983</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50;50</data>
+      <data key="d8">220000;110000;110000;220000</data>
+      <data key="d9">53.2132104446</data>
+      <data key="d10">SRID=4326;POINT(6.47436404982659 53.2132104446259)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="5681">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.62121121414</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">150000;380000;150000;380000</data>
+      <data key="d9">51.4551594793</data>
+      <data key="d10">SRID=4326;POINT(5.62121121414446 51.4551594793486)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="5685">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.87369054722</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">150000;150000;150000</data>
+      <data key="d9">52.4284153777</data>
+      <data key="d10">SRID=4326;POINT(4.87369054721532 52.4284153776802)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="5686">
+      <data key="d0" />
+      <data key="d1">Beverwijk-Oostzaan zwart;Bwk-Ozn380</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.87319449752</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">380000;380000;150000;150000</data>
+      <data key="d9">52.4295637747</data>
+      <data key="d10">SRID=4326;POINT(4.87319449751543 52.4295637747078)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="437">
+      <data key="d0" />
+      <data key="d1">380kV Oostzaan</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.87610510562</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">52.4290726345</data>
+      <data key="d10">SRID=4326;POINT(4.87610510561907 52.4290726344532)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="579">
+      <data key="d0" />
+      <data key="d1">380kV Simonshaven</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.2660356807</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000</data>
+      <data key="d9">51.8393470606</data>
+      <data key="d10">SRID=4326;POINT(4.26603568069759 51.8393470606259)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="588">
+      <data key="d0" />
+      <data key="d1">380kV Boxmeer</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.91323236336</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">51.638653088</data>
+      <data key="d10">SRID=4326;POINT(5.91323236335538 51.6386530879941)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="5711">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.22077056454</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">51.4299330531</data>
+      <data key="d10">SRID=4326;POINT(4.22077056454152 51.42993305311)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="5712">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.22403692875</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">51.4299955573</data>
+      <data key="d10">SRID=4326;POINT(4.22403692874611 51.4299955572952)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="5718">
+      <data key="d0" />
+      <data key="d1">Hengelo-Oele - Gronau/Losser</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.88841697474</data>
+      <data key="d5">Tennet</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">380000;110000;110000;380000;110000</data>
+      <data key="d9">52.2010161513</data>
+      <data key="d10">SRID=4326;POINT(6.88841697474181 52.2010161512832)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="606">
+      <data key="d0" />
+      <data key="d1">380kV Doetinchem</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.25234691784</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">51.9818986156</data>
+      <data key="d10">SRID=4326;POINT(6.25234691783541 51.9818986156296)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="5735">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.84059677756</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">220000;380000;220000;380000</data>
+      <data key="d9">53.2923680533</data>
+      <data key="d10">SRID=4326;POINT(6.84059677755922 53.2923680533493)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="5736">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.83909973514</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">220000;220000;220000</data>
+      <data key="d9">53.2955051861</data>
+      <data key="d10">SRID=4326;POINT(6.83909973513823 53.2955051860698)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="620">
+      <data key="d0" />
+      <data key="d1">Zeyerveen</data>
+      <data key="d2" />
+      <data key="d3">ZYV</data>
+      <data key="d4">6.52400497307</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;110000</data>
+      <data key="d9">53.0093638706</data>
+      <data key="d10">SRID=4326;POINT(6.52400497307423 53.0093638705969)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="5743">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.99353836828</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">110000;380000;110000;380000;110000</data>
+      <data key="d9">52.9865662678</data>
+      <data key="d10">SRID=4326;POINT(6.99353836827864 52.9865662678126)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="5744">
+      <data key="d0" />
+      <data key="d1">Hengelo - Zwolle</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.75302846467</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">380000;380000;110000;110000</data>
+      <data key="d9">52.2645784594</data>
+      <data key="d10">SRID=4326;POINT(6.75302846467407 52.2645784593685)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="5745">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.76845128046</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">380000;110000;380000;110000</data>
+      <data key="d9">52.2749068615</data>
+      <data key="d10">SRID=4326;POINT(6.76845128046101 52.2749068615022)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="5746">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.76803545032</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">380000;110000;110000;380000</data>
+      <data key="d9">52.2775456781</data>
+      <data key="d10">SRID=4326;POINT(6.76803545031599 52.277545678141)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="627">
+      <data key="d0" />
+      <data key="d1">380kV Eindhoven</data>
+      <data key="d2" />
+      <data key="d3">EHV O</data>
+      <data key="d4">5.53128316047</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">51.4465699866</data>
+      <data key="d10">SRID=4326;POINT(5.53128316047 51.4465699866224)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="5749">
+      <data key="d0" />
+      <data key="d1">Hengelo - Gronau (DE)</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.76061707287</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">380000;110000;380000;110000</data>
+      <data key="d9">52.2445292656</data>
+      <data key="d10">SRID=4326;POINT(6.7606170728682 52.2445292655628)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="789">
+      <data key="d0" />
+      <data key="d1">Weiwerd</data>
+      <data key="d2" />
+      <data key="d3">WEW</data>
+      <data key="d4">6.95672943218</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;110000</data>
+      <data key="d9">53.3033659279</data>
+      <data key="d10">SRID=4326;POINT(6.95672943218466 53.3033659278736)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="640">
+      <data key="d0" />
+      <data key="d1">220kV Oudehaske</data>
+      <data key="d2" />
+      <data key="d3">OHK</data>
+      <data key="d4">5.8714522699</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;110000</data>
+      <data key="d9">52.9729817737</data>
+      <data key="d10">SRID=4326;POINT(5.87145226989572 52.9729817737334)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="5765">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.59189828811</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">150000;380000;380000;150000</data>
+      <data key="d9">51.4557702902</data>
+      <data key="d10">SRID=4326;POINT(5.59189828810835 51.4557702902212)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="5770">
+      <data key="d0" />
+      <data key="d1">Maasbracht - Boxmeer - Dodewaard</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.90964183641</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">51.6376330413</data>
+      <data key="d10">SRID=4326;POINT(5.90964183641191 51.6376330412938)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="657">
+      <data key="d0" />
+      <data key="d1">220kV Louwsmeer</data>
+      <data key="d2" />
+      <data key="d3">LSM</data>
+      <data key="d4">5.87561850548</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;110000</data>
+      <data key="d9">53.1897268863</data>
+      <data key="d10">SRID=4326;POINT(5.87561850547832 53.189726886331)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="5780">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.91804153348</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">150000;150000;150000</data>
+      <data key="d9">51.6412109778</data>
+      <data key="d10">SRID=4326;POINT(5.91804153347607 51.6412109778013)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="676">
+      <data key="d0" />
+      <data key="d1">Eemscentrale</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.87787294276</data>
+      <data key="d5">GDF Suez</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">53.4367190554</data>
+      <data key="d10">SRID=4326;POINT(6.87787294275504 53.4367190553719)</data>
+      <data key="d11">plant</data>
+      <data key="d12" />
+    </node>
+    <node id="167">
+      <data key="d0" />
+      <data key="d1">110kV Losser</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">7.00943836914</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">52.2555215574</data>
+      <data key="d10">SRID=4326;POINT(7.0094383691445 52.2555215574458)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="5800">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.1379937613</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">110000;380000;380000;110000</data>
+      <data key="d9">52.5708792707</data>
+      <data key="d10">SRID=4326;POINT(6.13799376129815 52.5708792707265)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="796">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.4763927812</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">52.739488119</data>
+      <data key="d10">SRID=4326;POINT(6.47639278120413 52.7394881190435)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="5806">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.36673986693</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">380000;110000;110000;380000;110000</data>
+      <data key="d9">52.5667401827</data>
+      <data key="d10">SRID=4326;POINT(6.36673986693106 52.566740182736)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="5817">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.83756307701</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">220000;380000;220000;380000</data>
+      <data key="d9">53.2963101711</data>
+      <data key="d10">SRID=4326;POINT(6.83756307701322 53.2963101711032)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="5825">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.5306402753</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50</data>
+      <data key="d8">110000;380000;110000</data>
+      <data key="d9">52.6117376757</data>
+      <data key="d10">SRID=4326;POINT(6.53064027529605 52.611737675707)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="5826">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.70008131267</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">380000;110000;110000;380000;110000</data>
+      <data key="d9">52.7057382487</data>
+      <data key="d10">SRID=4326;POINT(6.70008131267043 52.7057382486508)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="5827">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.81043943516</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">110000;380000;110000;380000;110000</data>
+      <data key="d9">52.7227207674</data>
+      <data key="d10">SRID=4326;POINT(6.81043943515604 52.7227207673754)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="5828">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.94776381466</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50;50</data>
+      <data key="d8">380000;110000;110000;110000;380000;110000</data>
+      <data key="d9">52.8204734911</data>
+      <data key="d10">SRID=4326;POINT(6.94776381466105 52.820473491079)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="5829">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">7.04104819753</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">380000;110000;380000;110000;110000</data>
+      <data key="d9">52.9234399495</data>
+      <data key="d10">SRID=4326;POINT(7.04104819753057 52.9234399495123)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="5831">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.91073894174</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">380000;110000;110000;380000;110000</data>
+      <data key="d9">52.8088311711</data>
+      <data key="d10">SRID=4326;POINT(6.91073894174231 52.8088311711288)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="5832">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">7.03653928362</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">380000;110000;380000;110000;110000</data>
+      <data key="d9">52.9134801634</data>
+      <data key="d10">SRID=4326;POINT(7.03653928362499 52.9134801633692)</data>
+      <data key="d11">joint</data>
+      <data key="d12" />
+    </node>
+    <node id="713">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.09267795905</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000</data>
+      <data key="d9">51.9580381198</data>
+      <data key="d10">SRID=4326;POINT(4.09267795905042 51.9580381197671)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="716">
+      <data key="d0" />
+      <data key="d1">150kV Vijfhuizen</data>
+      <data key="d2" />
+      <data key="d3">VHZ</data>
+      <data key="d4">4.69733692154</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000;50000</data>
+      <data key="d9">52.374314499</data>
+      <data key="d10">SRID=4326;POINT(4.69733692153915 52.374314498982)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="758">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.45721123466</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">52.0114769763</data>
+      <data key="d10">SRID=4326;POINT(4.45721123465632 52.0114769763434)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="5888">
+      <data key="d0" />
+      <data key="d1">220kV Bergum;Centrale Bergum</data>
+      <data key="d2" />
+      <data key="d3">BGM</data>
+      <data key="d4">6.02941525941</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;110000</data>
+      <data key="d9">53.2107641788</data>
+      <data key="d10">SRID=4326;POINT(6.02941525941492 53.2107641787916)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="5889">
+      <data key="d0" />
+      <data key="d1">150kV Geertruidenberg</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.84206548422</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000</data>
+      <data key="d9">51.6950798012</data>
+      <data key="d10">SRID=4326;POINT(4.84206548422058 51.6950798012031)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="5890">
+      <data key="d0" />
+      <data key="d1">Centrale Maasvlakte (E.ON);380kV Maasvlakte</data>
+      <data key="d2" />
+      <data key="d3">MVL</data>
+      <data key="d4">4.02388485106</data>
+      <data key="d5">E.ON</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000;380000</data>
+      <data key="d9">51.9599497899</data>
+      <data key="d10">SRID=4326;POINT(4.02388485106377 51.9599497898606)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="5892">
+      <data key="d0" />
+      <data key="d1">Clauscentrale</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.90889925966</data>
+      <data key="d5">Essent</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">51.1556125844</data>
+      <data key="d10">SRID=4326;POINT(5.90889925965657 51.1556125843975)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="5894">
+      <data key="d0" />
+      <data key="d1">Centrale Diemen;380kV Diemen</data>
+      <data key="d2" />
+      <data key="d3">DIM</data>
+      <data key="d4">5.01799717372</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">52.3381763906</data>
+      <data key="d10">SRID=4326;POINT(5.017997173715 52.3381763905626)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="776">
+      <data key="d0" />
+      <data key="d1">110kV Hoogeveen</data>
+      <data key="d2" />
+      <data key="d3">HGV</data>
+      <data key="d4">6.47582067039</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">110000</data>
+      <data key="d9">52.7373347362</data>
+      <data key="d10">SRID=4326;POINT(6.47582067039204 52.7373347362389)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="5897">
+      <data key="d0" />
+      <data key="d1">220kV Hessenweg Zwolle;380kV Zwolle</data>
+      <data key="d2" />
+      <data key="d3">HSW</data>
+      <data key="d4">6.18892078402</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;380000</data>
+      <data key="d9">52.5304841405</data>
+      <data key="d10">SRID=4326;POINT(6.18892078402039 52.5304841405337)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="5899">
+      <data key="d0" />
+      <data key="d1">Robbenplaat;Eemshaven</data>
+      <data key="d2" />
+      <data key="d3">RBBP</data>
+      <data key="d4">6.87363443896</data>
+      <data key="d5">Tennet</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;380000;220000</data>
+      <data key="d9">53.4246401625</data>
+      <data key="d10">SRID=4326;POINT(6.87363443896295 53.4246401624989)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="5900">
+      <data key="d0" />
+      <data key="d1">380kV Westerlee;150kV Opstijgpunt Westerlee;150kV Westerlee</data>
+      <data key="d2" />
+      <data key="d3">WL</data>
+      <data key="d4">4.22374214369</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">51.982958206</data>
+      <data key="d10">SRID=4326;POINT(4.22374214368686 51.9829582059679)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="2832">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.54992636641</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">51.4484787099</data>
+      <data key="d10">SRID=4326;POINT(5.54992636641001 51.4484787099336)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="5905">
+      <data key="d0" />
+      <data key="d1">380kV Bleiswijk</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.53017160628</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50</data>
+      <data key="d8">150000;25000;380000;150000</data>
+      <data key="d9">52.0362421449</data>
+      <data key="d10">SRID=4326;POINT(4.5301716062811 52.036242144856)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="5907">
+      <data key="d0" />
+      <data key="d1">Lelystad;Lelystad</data>
+      <data key="d2" />
+      <data key="d3">LLS1</data>
+      <data key="d4">5.53682517649</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000;380000;150000</data>
+      <data key="d9">52.5756645104</data>
+      <data key="d10">SRID=4326;POINT(5.5368251764907 52.5756645103884)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="788">
+      <data key="d0" />
+      <data key="d1">110kV Delfzijl Welwerd</data>
+      <data key="d2" />
+      <data key="d3">DZW</data>
+      <data key="d4">6.95842854536</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">110000</data>
+      <data key="d9">53.3077033448</data>
+      <data key="d10">SRID=4326;POINT(6.95842854536296 53.3077033447987)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="5909">
+      <data key="d0" />
+      <data key="d1">Meeden;Meeden;110kV Meeden</data>
+      <data key="d2" />
+      <data key="d3">MEE2</data>
+      <data key="d4">6.9468837593</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;110000;380000;220000</data>
+      <data key="d9">53.1243738219</data>
+      <data key="d10">SRID=4326;POINT(6.94688375929753 53.1243738219244)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="5910">
+      <data key="d0" />
+      <data key="d1">380kV Dodewaard;Maasbracht - Boxmeer - Dodewaard</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.66403742709</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50</data>
+      <data key="d8">380000;380000;380000;380000</data>
+      <data key="d9">51.9268864742</data>
+      <data key="d10">SRID=4326;POINT(5.66403742708861 51.9268864741522)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="5913">
+      <data key="d0" />
+      <data key="d1">Rijnmond Energie</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.35504390062</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">51.8901465029</data>
+      <data key="d10">SRID=4326;POINT(4.35504390062315 51.8901465029022)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="5915">
+      <data key="d0" />
+      <data key="d1">380kV Krimpen;150kV Krimpen</data>
+      <data key="d2" />
+      <data key="d3">KIJ</data>
+      <data key="d4">4.62981207635</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;50000;150000</data>
+      <data key="d9">51.9136518091</data>
+      <data key="d10">SRID=4326;POINT(4.62981207635064 51.913651809075)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="5916">
+      <data key="d0" />
+      <data key="d1">380kV Maasbracht;150kV Maasbracht</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.9198232497</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">51.1480518115</data>
+      <data key="d10">SRID=4326;POINT(5.91982324969747 51.14805181154)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="798">
+      <data key="d0" />
+      <data key="d1">150kV Kruiningen</data>
+      <data key="d2" />
+      <data key="d3">KNG</data>
+      <data key="d4">4.03091948771</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000</data>
+      <data key="d9">51.468237459</data>
+      <data key="d10">SRID=4326;POINT(4.03091948770768 51.4682374589939)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="3461">
+      <data key="d0" />
+      <data key="d1">380kV Beverwijk</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.67928121993</data>
+      <data key="d5">Tennet</data>
+      <data key="d6" />
+      <data key="d7">50</data>
+      <data key="d8">380000;150000</data>
+      <data key="d9">52.4728204396</data>
+      <data key="d10">SRID=4326;POINT(4.67928121993247 52.4728204395942)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="5924">
+      <data key="d0" />
+      <data key="d1">Amercentrale</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.8425929343</data>
+      <data key="d5">Essent</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">51.7089954292</data>
+      <data key="d10">SRID=4326;POINT(4.84259293429645 51.7089954291521)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="5925">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.83872388234</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">51.7020388079</data>
+      <data key="d10">SRID=4326;POINT(4.83872388234074 51.7020388078802)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="5951">
+      <data key="d0" />
+      <data key="d1">Sloecentrale</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">3.69242759163</data>
+      <data key="d5">Delta;EDF</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">51.4480292746</data>
+      <data key="d10">SRID=4326;POINT(3.69242759163216 51.448029274634)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="5955">
+      <data key="d0" />
+      <data key="d1">Kernenergiecentrale Borssele;380 kV Borssele;Kolencentrale Borssele</data>
+      <data key="d2" />
+      <data key="d3">BSL</data>
+      <data key="d4">3.7217223086</data>
+      <data key="d5">EPZ</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000</data>
+      <data key="d9">51.4332758068</data>
+      <data key="d10">SRID=4326;POINT(3.72172230860127 51.4332758067586)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="5956">
+      <data key="d0" />
+      <data key="d1">Magnum;Eemshaven Oudeschip;Eemshaven Converterstation;RWE Eemshaven</data>
+      <data key="d2" />
+      <data key="d3">EOS</data>
+      <data key="d4">6.85914820143</data>
+      <data key="d5">NUON</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;450000;380000</data>
+      <data key="d9">53.4442377924</data>
+      <data key="d10">SRID=4326;POINT(6.85914820142812 53.4442377923709)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="3422">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.55421480167</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">51.4497492549</data>
+      <data key="d10">SRID=4326;POINT(5.55421480166694 51.449749254898)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="879">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.33335769307</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">51.9806074762</data>
+      <data key="d10">SRID=4326;POINT(4.33335769307449 51.9806074761917)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="389">
+      <data key="d0" />
+      <data key="d1">380kV Geertruidenberg</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.83297421115</data>
+      <data key="d5">Tennet</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000</data>
+      <data key="d9">51.7008521476</data>
+      <data key="d10">SRID=4326;POINT(4.83297421115171 51.7008521475898)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="390">
+      <data key="d0" />
+      <data key="d1">150 kV Woensdrecht</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.30569976188</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000</data>
+      <data key="d9">51.4670892408</data>
+      <data key="d10">SRID=4326;POINT(4.30569976187662 51.4670892408179)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="910">
+      <data key="d0" />
+      <data key="d1">380kV Hoek van Holland</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.16270796007</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000</data>
+      <data key="d9">51.9594843583</data>
+      <data key="d10">SRID=4326;POINT(4.16270796007241 51.9594843582637)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="3472">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.6706757236</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">52.4523452737</data>
+      <data key="d10">SRID=4326;POINT(4.6706757236026 52.4523452736678)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="403">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.86434859392</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">52.4171610825</data>
+      <data key="d10">SRID=4326;POINT(4.86434859392335 52.4171610825236)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="405">
+      <data key="d0" />
+      <data key="d1">Maxima-centrale</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.52951460668</data>
+      <data key="d5">GDF SUEZ Energie Nederland</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">52.5774906824</data>
+      <data key="d10">SRID=4326;POINT(5.52951460667978 52.5774906824146)</data>
+      <data key="d11">plant</data>
+      <data key="d12" />
+    </node>
+    <node id="407">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.15258543674</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">51.9457583757</data>
+      <data key="d10">SRID=4326;POINT(4.15258543674315 51.9457583757025)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="933">
+      <data key="d0" />
+      <data key="d1">150 kV Vondelingenweg</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.35659882148</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">51.8772584707</data>
+      <data key="d10">SRID=4326;POINT(4.35659882148095 51.8772584707284)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="936">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">6.50125568738</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">110000</data>
+      <data key="d9">52.792470047</data>
+      <data key="d10">SRID=4326;POINT(6.50125568738395 52.7924700469958)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="5896">
+      <data key="d0" />
+      <data key="d1">Hengelo;110kV Hengelo-Oele</data>
+      <data key="d2" />
+      <data key="d3">HGL</data>
+      <data key="d4">6.75945075298</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7">50</data>
+      <data key="d8">380000;110000;110000</data>
+      <data key="d9">52.2486282471</data>
+      <data key="d10">SRID=4326;POINT(6.75945075298267 52.2486282470595)</data>
+      <data key="d11">merge</data>
+      <data key="d12" />
+    </node>
+    <node id="949">
+      <data key="d0" />
+      <data key="d1">GDF SUEZ Centrale Rotterdam</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.07186981045</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">51.9447857561</data>
+      <data key="d10">SRID=4326;POINT(4.07186981045101 51.944785756086)</data>
+      <data key="d11">plant</data>
+      <data key="d12" />
+    </node>
+    <node id="3013">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.67474501076</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">52.4600561309</data>
+      <data key="d10">SRID=4326;POINT(4.67474501075724 52.4600561308738)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="458">
+      <data key="d0" />
+      <data key="d1">380kV Wateringen</data>
+      <data key="d2" />
+      <data key="d3">WTR</data>
+      <data key="d4">4.30706990126</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">52.0160757461</data>
+      <data key="d10">SRID=4326;POINT(4.30706990125723 52.016075746144)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="463">
+      <data key="d0" />
+      <data key="d1">380kV Crayestein</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.74799245539</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000</data>
+      <data key="d9">51.8137459928</data>
+      <data key="d10">SRID=4326;POINT(4.74799245539251 51.8137459927826)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="471">
+      <data key="d0" />
+      <data key="d1">Ens</data>
+      <data key="d2" />
+      <data key="d3">ENS</data>
+      <data key="d4">5.8093432881</data>
+      <data key="d5">Tennet</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;220000;110000</data>
+      <data key="d9">52.6171851465</data>
+      <data key="d10">SRID=4326;POINT(5.80934328810332 52.617185146488)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="477">
+      <data key="d0" />
+      <data key="d1">150kV Geervliet</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.28222941477</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000</data>
+      <data key="d9">51.8632422772</data>
+      <data key="d10">SRID=4326;POINT(4.28222941476987 51.8632422772256)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="479">
+      <data key="d0" />
+      <data key="d1">150kV Rilland</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.22641493305</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000</data>
+      <data key="d9">51.4258662138</data>
+      <data key="d10">SRID=4326;POINT(4.22641493305194 51.4258662138474)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="488">
+      <data key="d0" />
+      <data key="d1">150 kV Onderstation Dodewaard</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.67203951177</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000;50000</data>
+      <data key="d9">51.9294251524</data>
+      <data key="d10">SRID=4326;POINT(5.67203951176842 51.929425152408)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <node id="491">
+      <data key="d0" />
+      <data key="d1">220kV Groningen Vierverlaten</data>
+      <data key="d2" />
+      <data key="d3">VVL</data>
+      <data key="d4">6.47622620048</data>
+      <data key="d5">TenneT</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;110000</data>
+      <data key="d9">53.2113845335</data>
+      <data key="d10">SRID=4326;POINT(6.47622620047929 53.2113845335187)</data>
+      <data key="d11">substation</data>
+      <data key="d12" />
+    </node>
+    <edge source="520" target="5897">
+      <data key="d13">5618</data>
+      <data key="d14" />
+      <data key="d15">3;3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;380000;380000;380000;380000</data>
+      <data key="d23">49125.3225468868</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(6.18892078402039 52.5304841405337,6.67933076485524 52.3210417680287)</data>
+      <data key="d27">6;3;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="520" target="5746">
+      <data key="d13">5579</data>
+      <data key="d14" />
+      <data key="d15">1;3;3;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">110000;110000;110000;110000;380000;380000;110000</data>
+      <data key="d23">7653.09972774987</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.76803545031599 52.277545678141,6.67933076485524 52.3210417680287)</data>
+      <data key="d27">3;3;3;3;6;6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="522" target="5749">
+      <data key="d13">4768</data>
+      <data key="d14" />
+      <data key="d15">4;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;110000</data>
+      <data key="d23">6135.39028446718</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.83067316690019 52.2139014995887,6.7606170728682 52.2445292655628)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="522" target="5718">
+      <data key="d13">4842</data>
+      <data key="d14" />
+      <data key="d15">4;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;110000</data>
+      <data key="d23">4296.25954748825</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(6.83067316690019 52.2139014995887,6.88841697474181 52.2010161512832)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="551" target="5899">
+      <data key="d13">5147</data>
+      <data key="d14" />
+      <data key="d15">4</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">388.825936334484</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(6.86968310741081 53.4299869189259,6.87363443896295 53.4246401624989)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="551" target="5956">
+      <data key="d13">5146</data>
+      <data key="d14" />
+      <data key="d15">4</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">359.618100849584</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(6.86968310741081 53.4299869189259,6.85914820142812 53.4442377923709)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6192" target="5899">
+      <data key="d13">3754</data>
+      <data key="d14" />
+      <data key="d15">2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">220000;220000</data>
+      <data key="d23">39646.3688478259</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.87363443896295 53.4246401624989,6.47436404982659 53.2132104446259)</data>
+      <data key="d27">9;12</data>
+      <data key="d28" />
+    </edge>
+    <edge source="6192" target="491">
+      <data key="d13">5426</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">110000;110000</data>
+      <data key="d23">150.839765174364</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.47622620047929 53.2113845335187,6.47436404982659 53.2132104446259)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5681" target="5892">
+      <data key="d13">5405</data>
+      <data key="d14" />
+      <data key="d15">3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">40803.2243352938</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(5.62121121414446 51.4551594793486,5.90889925965657 51.1556125843975)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5681" target="5765">
+      <data key="d13">4871</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;150000</data>
+      <data key="d23">2086.88654164827</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(5.62121121414446 51.4551594793486,5.59189828810835 51.4557702902212)</data>
+      <data key="d27">12</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5685" target="403">
+      <data key="d13">5369</data>
+      <data key="d14" />
+      <data key="d15">3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">150000;150000;150000</data>
+      <data key="d23">1343.52855381939</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.86434859392335 52.4171610825236,4.87369054721532 52.4284153776802)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5685" target="437">
+      <data key="d13">3686</data>
+      <data key="d14" />
+      <data key="d15">3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">150000;380000</data>
+      <data key="d23">53.3298917236207</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.87610510561907 52.4290726344532,4.87369054721532 52.4284153776802)</data>
+      <data key="d27">3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5685" target="5686">
+      <data key="d13">4613</data>
+      <data key="d14" />
+      <data key="d15">3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">150000</data>
+      <data key="d23">139.729435590028</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.87369054721532 52.4284153776802,4.87319449751543 52.4295637747078)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5686" target="3461">
+      <data key="d13">4805</data>
+      <data key="d14" />
+      <data key="d15">3</data>
+      <data key="d16" />
+      <data key="d17">Bwk-Ozn380</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;150000</data>
+      <data key="d23">15798.7964304326</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.87319449751543 52.4295637747078,4.67928121993247 52.4728204395942)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5686" target="437">
+      <data key="d13">3635</data>
+      <data key="d14" />
+      <data key="d15">3</data>
+      <data key="d16" />
+      <data key="d17">Beverwijk-Oostzaan zwart</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">380000;380000</data>
+      <data key="d23">46.7162823035179</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.87610510561907 52.4290726344532,4.87319449751543 52.4295637747078)</data>
+      <data key="d27">3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="437" target="403">
+      <data key="d13">5614</data>
+      <data key="d14" />
+      <data key="d15">3;3;3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50;50;50</data>
+      <data key="d22">150000;150000;150000;380000;380000;150000;150000</data>
+      <data key="d23">1343.98736783262</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.87610510561907 52.4290726344532,4.86434859392335 52.4171610825236)</data>
+      <data key="d27">3;6;3;3;3;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="437" target="5894">
+      <data key="d13">3691</data>
+      <data key="d14" />
+      <data key="d15">3;3;3</data>
+      <data key="d16" />
+      <data key="d17">Ozn-Dmn380;Ozn-Dmn380;Ozn-Dmn380</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">380000;380000;380000</data>
+      <data key="d23">15163.8849293708</data>
+      <data key="d24">line</data>
+      <data key="d25">Tennet</data>
+      <data key="d26">SRID=4326;LINESTRING(4.87610510561907 52.4290726344532,5.017997173715 52.3381763905626)</data>
+      <data key="d27">6;6;8</data>
+      <data key="d28" />
+    </edge>
+    <edge source="579" target="933">
+      <data key="d13">5172</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">10442.5825558751</data>
+      <data key="d24">line</data>
+      <data key="d25">Joulz</data>
+      <data key="d26">SRID=4326;LINESTRING(4.26603568069759 51.8393470606259,4.35659882148095 51.8772584707284)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="579" target="5890">
+      <data key="d13">852</data>
+      <data key="d14" />
+      <data key="d15">4</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">23124.7976682868</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.26603568069759 51.8393470606259,4.02388485106377 51.9599497898606)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="579" target="477">
+      <data key="d13">4060</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">380000;150000;150000</data>
+      <data key="d23">3582.47967586374</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.28222941476987 51.8632422772256,4.26603568069759 51.8393470606259)</data>
+      <data key="d27">3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="579" target="463">
+      <data key="d13">146</data>
+      <data key="d14" />
+      <data key="d15">4</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">42224.8964662267</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.26603568069759 51.8393470606259,4.74799245539251 51.8137459927826)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="588" target="5770">
+      <data key="d13">5310</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">380000;150000;380000;380000</data>
+      <data key="d23">117.880434220831</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(5.91323236335538 51.6386530879941,5.90964183641191 51.6376330412938)</data>
+      <data key="d27">3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="588" target="5780">
+      <data key="d13">5309</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">380000;380000;380000;150000</data>
+      <data key="d23">282.454737223016</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(5.91323236335538 51.6386530879941,5.91804153347607 51.6412109778013)</data>
+      <data key="d27">3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5711" target="5712">
+      <data key="d13">4738</data>
+      <data key="d14" />
+      <data key="d15">3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">226.025586483563</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.22077056454152 51.42993305311,4.22403692874611 51.4299955572952)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5711" target="798">
+      <data key="d13">5285</data>
+      <data key="d14" />
+      <data key="d15">3;3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">380000;380000;380000</data>
+      <data key="d23">14556.2419997325</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.03091948770768 51.4682374589939,4.22077056454152 51.42993305311)</data>
+      <data key="d27">6;6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5712" target="479">
+      <data key="d13">5251</data>
+      <data key="d14" />
+      <data key="d15">3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">380000;380000</data>
+      <data key="d23">402.35090534922</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.22641493305194 51.4258662138474,4.22403692874611 51.4299955572952)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5718" target="167">
+      <data key="d13">5540</data>
+      <data key="d14" />
+      <data key="d15">1;4;1</data>
+      <data key="d16" />
+      <data key="d17">Hengelo-Oele - Losser;Hengelo-Oele - Gronau/Losser</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">110000;110000;380000;110000</data>
+      <data key="d23">13092.9760289645</data>
+      <data key="d24">line</data>
+      <data key="d25">Tennet</data>
+      <data key="d26">SRID=4326;LINESTRING(6.88841697474181 52.2010161512832,7.0094383691445 52.2555215574458)</data>
+      <data key="d27">3;3;6;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="606" target="5896">
+      <data key="d13">436</data>
+      <data key="d14" />
+      <data key="d15">3</data>
+      <data key="d16" />
+      <data key="d17">Doetichem - Hengelo</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">58466.1529636607</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.25234691783541 51.9818986156296,6.75945075298267 52.2486282470595)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="606" target="5910">
+      <data key="d13">89</data>
+      <data key="d14" />
+      <data key="d15">3</data>
+      <data key="d16" />
+      <data key="d17">Dodewaard - Doetichem</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">44387.8810227813</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.25234691783541 51.9818986156296,5.66403742708861 51.9268864741522)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5735" target="5736">
+      <data key="d13">5031</data>
+      <data key="d14" />
+      <data key="d15">4</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">220000</data>
+      <data key="d23">386.245013908774</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.84059677755922 53.2923680533493,6.83909973513823 53.2955051860698)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5735" target="5817">
+      <data key="d13">4724</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">481.922663400678</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.84059677755922 53.2923680533493,6.83756307701322 53.2963101711032)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5735" target="5909">
+      <data key="d13">4886</data>
+      <data key="d14" />
+      <data key="d15">4</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;220000</data>
+      <data key="d23">20644.9159035264</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.84059677755922 53.2923680533493,6.94688375929753 53.1243738219244)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5736" target="5817">
+      <data key="d13">4858</data>
+      <data key="d14" />
+      <data key="d15">4;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">220000</data>
+      <data key="d23">153.273505923167</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.83909973513823 53.2955051860698,6.83756307701322 53.2963101711032)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5736" target="789">
+      <data key="d13">4927</data>
+      <data key="d14" />
+      <data key="d15">4;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">220000</data>
+      <data key="d23">7879.84590871456</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.95672943218466 53.3033659278736,6.83909973513823 53.2955051860698)</data>
+      <data key="d27">12</data>
+      <data key="d28" />
+    </edge>
+    <edge source="620" target="936">
+      <data key="d13">5291</data>
+      <data key="d14" />
+      <data key="d15">2;2</data>
+      <data key="d16" />
+      <data key="d17">ZYV-HGV (wit), ZYV1-WT10 (zwart)</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">220000;220000</data>
+      <data key="d23">25743.7390626108</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.52400497307423 53.0093638705969,6.50125568738395 52.7924700469958)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="620" target="491">
+      <data key="d13">256</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">220000</data>
+      <data key="d23">23525.8246603162</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.47622620047929 53.2113845335187,6.52400497307423 53.0093638705969)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5743" target="5829">
+      <data key="d13">5069</data>
+      <data key="d14" />
+      <data key="d15">4;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;110000</data>
+      <data key="d23">7740.84707901267</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.99353836827864 52.9865662678126,7.04104819753057 52.9234399495123)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5743" target="5909">
+      <data key="d13">5587</data>
+      <data key="d14" />
+      <data key="d15">4;4;1;4</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">380000;380000;110000;380000;110000;110000</data>
+      <data key="d23">16300.6992211975</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.99353836827864 52.9865662678126,6.94688375929753 53.1243738219244)</data>
+      <data key="d27">3;6;6;3;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5744" target="5896">
+      <data key="d13">5015</data>
+      <data key="d14" />
+      <data key="d15">3</data>
+      <data key="d16" />
+      <data key="d17">Hengelo - Zwolle</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">1677.7654056979</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(6.75302846467407 52.2645784593685,6.75945075298267 52.2486282470595)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5744" target="5745">
+      <data key="d13">5095</data>
+      <data key="d14" />
+      <data key="d15">3;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;110000</data>
+      <data key="d23">1557.40786603487</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.76845128046101 52.2749068615022,6.75302846467407 52.2645784593685)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5745" target="5746">
+      <data key="d13">5005</data>
+      <data key="d14" />
+      <data key="d15">3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">293.779176427618</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.76845128046101 52.2749068615022,6.76803545031599 52.277545678141)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="627" target="2832">
+      <data key="d13">5616</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">380000;380000;380000;380000;380000</data>
+      <data key="d23">1039.99985254114</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(5.53128316047 51.4465699866224,5.54992636641001 51.4484787099336)</data>
+      <data key="d27">3;6;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="627" target="5889">
+      <data key="d13">5132</data>
+      <data key="d14" />
+      <data key="d15">3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">62250.5805241666</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.84206548422058 51.6950798012031,5.53128316047 51.4465699866224)</data>
+      <data key="d27">9</data>
+      <data key="d28" />
+    </edge>
+    <edge source="627" target="5765">
+      <data key="d13">3630</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">150000;150000</data>
+      <data key="d23">4399.85146415298</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(5.53128316047 51.4465699866224,5.59189828810835 51.4557702902212)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5749" target="5896">
+      <data key="d13">5569</data>
+      <data key="d14" />
+      <data key="d15">3;3;3</data>
+      <data key="d16" />
+      <data key="d17">Hengelo - Gronau (DE)</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;380000;380000;380000;380000</data>
+      <data key="d23">384.229687703971</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.7606170728682 52.2445292655628,6.75945075298267 52.2486282470595)</data>
+      <data key="d27">3;3;6;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="789" target="788">
+      <data key="d13">3755</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">220000;110000;110000</data>
+      <data key="d23">239.284035120694</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.95842854536296 53.3077033447987,6.95672943218466 53.3033659278736)</data>
+      <data key="d27">3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="640" target="657">
+      <data key="d13">5604</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">220000;220000;220000;220000;220000</data>
+      <data key="d23">28275.8119103933</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(5.87145226989572 52.9729817737334,5.87561850547832 53.189726886331)</data>
+      <data key="d27">3;3;3;3;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="640" target="471">
+      <data key="d13">473</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">220000</data>
+      <data key="d23">43161.7728512248</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(5.80934328810332 52.617185146488,5.87145226989572 52.9729817737334)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5765" target="3422">
+      <data key="d13">5399</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">2711.43449705541</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(5.55421480166694 51.449749254898,5.59189828810835 51.4557702902212)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5770" target="5892">
+      <data key="d13">5388</data>
+      <data key="d14" />
+      <data key="d15">3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">56936.1543793827</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(5.90889925965657 51.1556125843975,5.90964183641191 51.6376330412938)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5770" target="5910">
+      <data key="d13">4585</data>
+      <data key="d14" />
+      <data key="d15">3</data>
+      <data key="d16" />
+      <data key="d17">Maasbracht - Boxmeer - Dodewaard</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">41563.3047235294</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(5.90964183641191 51.6376330412938,5.66403742708861 51.9268864741522)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="657" target="5888">
+      <data key="d13">282</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">110000</data>
+      <data key="d23">11486.7945985284</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(6.02941525941492 53.2107641787916,5.87561850547832 53.189726886331)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="676" target="5899">
+      <data key="d13">1056</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">220000</data>
+      <data key="d23">612.445850501168</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(6.87787294275504 53.4367190553719,6.87363443896295 53.4246401624989)</data>
+      <data key="d27" />
+      <data key="d28" />
+    </edge>
+    <edge source="5800" target="5897">
+      <data key="d13">5568</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">110000;380000;110000;380000</data>
+      <data key="d23">5561.71086439837</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.18892078402039 52.5304841405337,6.13799376129815 52.5708792707265)</data>
+      <data key="d27">6;6;6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5800" target="471">
+      <data key="d13">4907</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">25603.3569418518</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.13799376129815 52.5708792707265,5.80934328810332 52.617185146488)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="796" target="776">
+      <data key="d13">5293</data>
+      <data key="d14" />
+      <data key="d15">2;2</data>
+      <data key="d16" />
+      <data key="d17">ZYV-HGV (wit), ZYV1-WT10 (zwart)</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">220000;220000</data>
+      <data key="d23">64.5216103523639</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.47582067039204 52.7373347362389,6.47639278120413 52.7394881190435)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="796" target="936">
+      <data key="d13">5292</data>
+      <data key="d14" />
+      <data key="d15">2;2</data>
+      <data key="d16" />
+      <data key="d17">ZYV-HGV (wit), ZYV1-WT10 (zwart)</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">220000;220000</data>
+      <data key="d23">6136.06883632502</data>
+      <data key="d24">line</data>
+      <data key="d25">Tennet</data>
+      <data key="d26">SRID=4326;LINESTRING(6.47639278120413 52.7394881190435,6.50125568738395 52.7924700469958)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5806" target="5825">
+      <data key="d13">4953</data>
+      <data key="d14" />
+      <data key="d15">4;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;110000</data>
+      <data key="d23">13087.9628122218</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.36673986693106 52.566740182736,6.53064027529605 52.611737675707)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5806" target="5897">
+      <data key="d13">5554</data>
+      <data key="d14" />
+      <data key="d15">4;1;1;4;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">380000;110000;110000;380000</data>
+      <data key="d23">12487.1606731186</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.36673986693106 52.566740182736,6.18892078402039 52.5304841405337)</data>
+      <data key="d27">6;6;6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5817" target="5899">
+      <data key="d13">5546</data>
+      <data key="d14" />
+      <data key="d15">4;2;4</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">380000;220000;220000;380000</data>
+      <data key="d23">16008.3891589353</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.83756307701322 53.2963101711032,6.87363443896295 53.4246401624989)</data>
+      <data key="d27">6;6;6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5825" target="5826">
+      <data key="d13">4954</data>
+      <data key="d14" />
+      <data key="d15">4;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;110000</data>
+      <data key="d23">18278.1569588974</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.53064027529605 52.611737675707,6.70008131267043 52.7057382486508)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5826" target="5827">
+      <data key="d13">4653</data>
+      <data key="d14" />
+      <data key="d15">4;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;110000</data>
+      <data key="d23">8648.8671837756</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.70008131267043 52.7057382486508,6.81043943515604 52.7227207673754)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5827" target="5831">
+      <data key="d13">4148</data>
+      <data key="d14" />
+      <data key="d15">4;1;4;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">380000;110000;380000;110000</data>
+      <data key="d23">13852.1058389222</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.81043943515604 52.7227207673754,6.91073894174231 52.8088311711288)</data>
+      <data key="d27">6;6;6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5828" target="5832">
+      <data key="d13">4706</data>
+      <data key="d14" />
+      <data key="d15">4;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;110000</data>
+      <data key="d23">13114.0961645375</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.94776381466105 52.820473491079,7.03653928362499 52.9134801633692)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5828" target="5831">
+      <data key="d13">4690</data>
+      <data key="d14" />
+      <data key="d15">4;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;110000</data>
+      <data key="d23">2837.69862776518</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.94776381466105 52.820473491079,6.91073894174231 52.8088311711288)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5829" target="5832">
+      <data key="d13">4601</data>
+      <data key="d14" />
+      <data key="d15">4;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;110000</data>
+      <data key="d23">1147.96052940339</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(7.04104819753057 52.9234399495123,7.03653928362499 52.9134801633692)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="713" target="5890">
+      <data key="d13">3809</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">380000;380000</data>
+      <data key="d23">4009.68630591092</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.09267795905042 51.9580381197671,4.02388485106377 51.9599497898606)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="716" target="3472">
+      <data key="d13">5377</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17">Bwk-Vhz380;Bwk-Vhz380;Bwk-Vhz380</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;380000;380000</data>
+      <data key="d23">9646.26716825236</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.69733692153915 52.374314498982,4.6706757236026 52.4523452736678)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="758" target="5905">
+      <data key="d13">5279</data>
+      <data key="d14" />
+      <data key="d15">4</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">380000;380000</data>
+      <data key="d23">6623.60352671029</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.45721123465632 52.0114769763434,4.5301716062811 52.036242144856)</data>
+      <data key="d27">6;12</data>
+      <data key="d28" />
+    </edge>
+    <edge source="758" target="879">
+      <data key="d13">5280</data>
+      <data key="d14" />
+      <data key="d15">4</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">380000;380000</data>
+      <data key="d23">10470.1055365993</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.45721123465632 52.0114769763434,4.33335769307449 51.9806074761917)</data>
+      <data key="d27">12;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5888" target="491">
+      <data key="d13">5552</data>
+      <data key="d14" />
+      <data key="d15">2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">220000;220000;220000;220000;220000</data>
+      <data key="d23">32088.8660620611</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.47622620047929 53.2113845335187,6.02941525941492 53.2107641787916)</data>
+      <data key="d27">6;3;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5889" target="5925">
+      <data key="d13">5612</data>
+      <data key="d14" />
+      <data key="d15">3;3;3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50</data>
+      <data key="d22">150000;150000;150000;150000;150000;150000;150000</data>
+      <data key="d23">597.292768836893</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.84206548422058 51.6950798012031,4.83872388234074 51.7020388078802)</data>
+      <data key="d27">6;6;3;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5889" target="389">
+      <data key="d13">5567</data>
+      <data key="d14" />
+      <data key="d15">3;3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">150000;150000;150000;150000;150000</data>
+      <data key="d23">617.961199726064</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.83297421115171 51.7008521475898,4.84206548422058 51.6950798012031)</data>
+      <data key="d27">3;3;6;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5890" target="949">
+      <data key="d13">3429</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">2974.49956321857</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.07186981045101 51.944785756086,4.02388485106377 51.9599497898606)</data>
+      <data key="d27" />
+      <data key="d28" />
+    </edge>
+    <edge source="5890" target="407">
+      <data key="d13">5194</data>
+      <data key="d14" />
+      <data key="d15">4</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">380000;380000</data>
+      <data key="d23">12362.2107202113</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.15258543674315 51.9457583757025,4.02388485106377 51.9599497898606)</data>
+      <data key="d27">6;12</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5892" target="5916">
+      <data key="d13">5403</data>
+      <data key="d14" />
+      <data key="d15">3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">689.360089517627</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(5.90889925965657 51.1556125843975,5.91982324969747 51.14805181154)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5894" target="5915">
+      <data key="d13">5550</data>
+      <data key="d14" />
+      <data key="d15">3;3;3;3;3</data>
+      <data key="d16" />
+      <data key="d17">Dmn-Kij380</data>
+      <data key="d18">DIM-KIJ WIT</data>
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50</data>
+      <data key="d22">380000;380000;380000;380000;380000;380000;380000;380000</data>
+      <data key="d23">57372.8273343745</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(5.017997173715 52.3381763905626,4.62981207635064 51.913651809075)</data>
+      <data key="d27">3;3;3;6;3;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5894" target="5907">
+      <data key="d13">5544</data>
+      <data key="d14" />
+      <data key="d15">3;3;3;3;3;3;3</data>
+      <data key="d16" />
+      <data key="d17">Dmn-Lls380</data>
+      <data key="d18">DIM-LLS</data>
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50</data>
+      <data key="d22">380000;380000;380000;380000;380000;380000;380000;380000;380000;380000</data>
+      <data key="d23">51308.7166581998</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(5.017997173715 52.3381763905626,5.5368251764907 52.5756645103884)</data>
+      <data key="d27">6;6;6;6;6;6;6;6;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="776" target="5897">
+      <data key="d13">5294</data>
+      <data key="d14" />
+      <data key="d15">2;2</data>
+      <data key="d16" />
+      <data key="d17">ZYV-HGV (wit), ZYV1-WT10 (zwart)</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">220000;220000</data>
+      <data key="d23">31379.6292567893</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.47582067039204 52.7373347362389,6.18892078402039 52.5304841405337)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5897" target="471">
+      <data key="d13">5597</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">220000;220000;220000;220000;220000</data>
+      <data key="d23">31217.8264073048</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(6.18892078402039 52.5304841405337,5.80934328810332 52.617185146488)</data>
+      <data key="d27">3;6;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5899" target="5956">
+      <data key="d13">484</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">836.775559451349</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(6.87363443896295 53.4246401624989,6.85914820142812 53.4442377923709)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5900" target="458">
+      <data key="d13">411</data>
+      <data key="d14" />
+      <data key="d15">3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">6530.5394577055</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.30706990125723 52.016075746144,4.22374214368686 51.9829582059679)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5900" target="910">
+      <data key="d13">294</data>
+      <data key="d14" />
+      <data key="d15">4</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">5105.88834378206</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.16270796007241 51.9594843582637,4.22374214368686 51.9829582059679)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="2832" target="3422">
+      <data key="d13">5400</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">314.491576713093</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(5.54992636641001 51.4484787099336,5.55421480166694 51.449749254898)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5905" target="5915">
+      <data key="d13">5600</data>
+      <data key="d14" />
+      <data key="d15">4;4;4</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">380000;380000;380000;380000;380000</data>
+      <data key="d23">17052.8058642978</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.5301716062811 52.036242144856,4.62981207635064 51.913651809075)</data>
+      <data key="d27">6;3;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5907" target="405">
+      <data key="d13">5375</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">380000;380000;380000</data>
+      <data key="d23">104.757007619738</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(5.52951460667978 52.5774906824146,5.5368251764907 52.5756645103884)</data>
+      <data key="d27">3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5907" target="471">
+      <data key="d13">475</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">19822.2285001631</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(5.80934328810332 52.617185146488,5.5368251764907 52.5756645103884)</data>
+      <data key="d27">6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5910" target="488">
+      <data key="d13">5624</data>
+      <data key="d14" />
+      <data key="d15">2;2;2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50;50;50;50</data>
+      <data key="d22">150000;150000;150000;150000;380000;150000;150000;150000</data>
+      <data key="d23">224.590600643441</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(5.66403742708861 51.9268864741522,5.67203951176842 51.929425152408)</data>
+      <data key="d27">3;3;3;3;3;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5913" target="933">
+      <data key="d13">5171</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">1162.71792944167</data>
+      <data key="d24">line</data>
+      <data key="d25">Joulz</data>
+      <data key="d26">SRID=4326;LINESTRING(4.35659882148095 51.8772584707284,4.35504390062315 51.8901465029022)</data>
+      <data key="d27">3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5915" target="5924">
+      <data key="d13">5620</data>
+      <data key="d14" />
+      <data key="d15">3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">380000;380000;380000;380000;380000</data>
+      <data key="d23">32640.1427995274</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.84259293429645 51.7089954291521,4.62981207635064 51.913651809075)</data>
+      <data key="d27">3;3;6;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5915" target="463">
+      <data key="d13">5564</data>
+      <data key="d14" />
+      <data key="d15">3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">380000;380000;380000;380000;380000</data>
+      <data key="d23">14589.1063984485</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.62981207635064 51.913651809075,4.74799245539251 51.8137459927826)</data>
+      <data key="d27">3;6;3;3;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="798" target="5955">
+      <data key="d13">5611</data>
+      <data key="d14" />
+      <data key="d15">3;3;3;3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50;50;50</data>
+      <data key="d22">380000;380000;380000;380000;380000;380000;380000</data>
+      <data key="d23">23801.555519812</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(3.72172230860127 51.4332758067586,4.03091948770768 51.4682374589939)</data>
+      <data key="d27">3;3;3;3;6;6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="3461" target="3013">
+      <data key="d13">5379</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17">Bwk-Vhz380;Bwk-Vhz380;Bwk-Vhz380</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;380000;380000</data>
+      <data key="d23">1195.67416191728</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.67474501075724 52.4600561308738,4.67928121993247 52.4728204395942)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5924" target="5925">
+      <data key="d13">5289</data>
+      <data key="d14" />
+      <data key="d15">3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">150000;150000;150000</data>
+      <data key="d23">270.194071859831</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.84259293429645 51.7089954291521,4.83872388234074 51.7020388078802)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5924" target="389">
+      <data key="d13">5619</data>
+      <data key="d14" />
+      <data key="d15">3;3;3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50;50</data>
+      <data key="d22">380000;380000;380000;380000;380000</data>
+      <data key="d23">446.105729952541</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.84259293429645 51.7089954291521,4.83297421115171 51.7008521475898)</data>
+      <data key="d27">3;3;3;6;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5925" target="389">
+      <data key="d13">5130</data>
+      <data key="d14" />
+      <data key="d15">3</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000</data>
+      <data key="d23">148.595158662156</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.83297421115171 51.7008521475898,4.83872388234074 51.7020388078802)</data>
+      <data key="d27">9</data>
+      <data key="d28" />
+    </edge>
+    <edge source="5951" target="5955">
+      <data key="d13">5121</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21" />
+      <data key="d22">400000</data>
+      <data key="d23">1944.20817298835</data>
+      <data key="d24">line</data>
+      <data key="d25" />
+      <data key="d26">SRID=4326;LINESTRING(3.69242759163216 51.448029274634,3.72172230860127 51.4332758067586)</data>
+      <data key="d27" />
+      <data key="d28" />
+    </edge>
+    <edge source="879" target="458">
+      <data key="d13">2484</data>
+      <data key="d14" />
+      <data key="d15">4;1</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;150000</data>
+      <data key="d23">4155.25699945831</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.30706990125723 52.016075746144,4.33335769307449 51.9806074761917)</data>
+      <data key="d27">12</data>
+      <data key="d28" />
+    </edge>
+    <edge source="390" target="479">
+      <data key="d13">5610</data>
+      <data key="d14" />
+      <data key="d15">2;3;2;3;2;2;2</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">150000;380000;150000;150000;150000;380000;150000;150000;150000</data>
+      <data key="d23">14183.3989884414</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.30569976187662 51.4670892408179,4.22641493305194 51.4258662138474)</data>
+      <data key="d27">3;6;3;3;6;6;6;6;3</data>
+      <data key="d28" />
+    </edge>
+    <edge source="910" target="407">
+      <data key="d13">5195</data>
+      <data key="d14" />
+      <data key="d15">4</data>
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50;50</data>
+      <data key="d22">380000;380000</data>
+      <data key="d23">1536.04523199615</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.15258543674315 51.9457583757025,4.16270796007241 51.9594843582637)</data>
+      <data key="d27">12;6</data>
+      <data key="d28" />
+    </edge>
+    <edge source="3472" target="3013">
+      <data key="d13">5378</data>
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17">Bwk-Vhz380;Bwk-Vhz380;Bwk-Vhz380</data>
+      <data key="d18" />
+      <data key="d19">''</data>
+      <data key="d20" />
+      <data key="d21">50</data>
+      <data key="d22">380000;380000;380000</data>
+      <data key="d23">719.157479377524</data>
+      <data key="d24">line</data>
+      <data key="d25">TenneT</data>
+      <data key="d26">SRID=4326;LINESTRING(4.67474501075724 52.4600561308738,4.6706757236026 52.4523452736678)</data>
+      <data key="d27">6;6</data>
+      <data key="d28" />
+    </edge>
+  </graph>
+</graphml>

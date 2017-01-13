@@ -1,0 +1,3365 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="rohmkm" attr.type="string" for="edge" id="d27" />
+  <key attr.name="cables" attr.type="string" for="edge" id="d26" />
+  <key attr.name="wktsrid4326" attr.type="string" for="edge" id="d25" />
+  <key attr.name="operator" attr.type="string" for="edge" id="d24" />
+  <key attr.name="type" attr.type="string" for="edge" id="d23" />
+  <key attr.name="lengthm" attr.type="string" for="edge" id="d22" />
+  <key attr.name="voltage" attr.type="string" for="edge" id="d21" />
+  <key attr.name="frequency" attr.type="string" for="edge" id="d20" />
+  <key attr.name="cnfkm" attr.type="string" for="edge" id="d19" />
+  <key attr.name="fromrelation" attr.type="string" for="edge" id="d18" />
+  <key attr.name="ref" attr.type="string" for="edge" id="d17" />
+  <key attr.name="name" attr.type="string" for="edge" id="d16" />
+  <key attr.name="xohmkm" attr.type="string" for="edge" id="d15" />
+  <key attr.name="wires" attr.type="string" for="edge" id="d14" />
+  <key attr.name="ithmaxa" attr.type="string" for="edge" id="d13" />
+  <key attr.name="lid" attr.type="string" for="edge" id="d12" />
+  <key attr.name="typ" attr.type="string" for="node" id="d11" />
+  <key attr.name="wktsrid4326" attr.type="string" for="node" id="d10" />
+  <key attr.name="lat" attr.type="string" for="node" id="d9" />
+  <key attr.name="voltage" attr.type="string" for="node" id="d8" />
+  <key attr.name="frequency" attr.type="string" for="node" id="d7" />
+  <key attr.name="ngen" attr.type="string" for="node" id="d6" />
+  <key attr.name="operator" attr.type="string" for="node" id="d5" />
+  <key attr.name="lon" attr.type="string" for="node" id="d4" />
+  <key attr.name="ref" attr.type="string" for="node" id="d3" />
+  <key attr.name="source" attr.type="string" for="node" id="d2" />
+  <key attr.name="name" attr.type="string" for="node" id="d1" />
+  <key attr.name="capacity" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="513">
+      <data key="d0" />
+      <data key="d1">Gramme</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.28706131099</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">50.5120346115</data>
+      <data key="d10">SRID=4326;POINT(5.2870613109904 50.5120346115309)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="515">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.06328474817</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">51.1071882336</data>
+      <data key="d10">SRID=4326;POINT(5.06328474816845 51.1071882335793)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="2564">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.91573448729</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;380000;380000;380000</data>
+      <data key="d9">50.5109139536</data>
+      <data key="d10">SRID=4326;POINT(4.91573448728949 50.5109139535887)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2572">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.53290547424</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">70000;220000</data>
+      <data key="d9">50.6259929859</data>
+      <data key="d10">SRID=4326;POINT(5.53290547424258 50.6259929859448)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="525">
+      <data key="d0" />
+      <data key="d1">Champion</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.90388727523</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;70000</data>
+      <data key="d9">50.4886391442</data>
+      <data key="d10">SRID=4326;POINT(4.90388727523483 50.4886391442475)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="528">
+      <data key="d0" />
+      <data key="d1">220 kV Jupille</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.61963668397</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;150000</data>
+      <data key="d9">50.6445020348</data>
+      <data key="d10">SRID=4326;POINT(5.6196366839695 50.6445020348321)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="529">
+      <data key="d0" />
+      <data key="d1">RimiÃ¨re</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.47173207237</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;220000;70000</data>
+      <data key="d9">50.5403276815</data>
+      <data key="d10">SRID=4326;POINT(5.47173207237108 50.5403276815258)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="531">
+      <data key="d0" />
+      <data key="d1">380kV Izegem</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">3.22666479338</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">50.8980856043</data>
+      <data key="d10">SRID=4326;POINT(3.22666479337942 50.8980856043459)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="537">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.34658888022</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">50.3119597024</data>
+      <data key="d10">SRID=4326;POINT(4.34658888022188 50.3119597024459)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="540">
+      <data key="d0" />
+      <data key="d1">380kV TergnÃ©e</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.56780726669</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">50.4367589762</data>
+      <data key="d10">SRID=4326;POINT(4.56780726668917 50.4367589761762)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="552">
+      <data key="d0" />
+      <data key="d1">Elia Zandvliet</data>
+      <data key="d2" />
+      <data key="d3">ZVL</data>
+      <data key="d4">4.24829679364</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">51.3696336565</data>
+      <data key="d10">SRID=4326;POINT(4.24829679364474 51.3696336564913)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="553">
+      <data key="d0" />
+      <data key="d1">Elia Kallo</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.28880660614</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000</data>
+      <data key="d9">51.2533121421</data>
+      <data key="d10">SRID=4326;POINT(4.28880660613614 51.2533121420838)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="2603">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.79828604497</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7">50</data>
+      <data key="d8">380000;220000;220000;380000;220000</data>
+      <data key="d9">50.1499683543</data>
+      <data key="d10">SRID=4326;POINT(5.79828604497176 50.1499683542572)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="559">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.5614693209</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000</data>
+      <data key="d9">50.8019189203</data>
+      <data key="d10">SRID=4326;POINT(5.56146932090379 50.8019189203483)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="567">
+      <data key="d0" />
+      <data key="d1">Elia Mercator</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.24682259024</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000</data>
+      <data key="d9">51.1540442548</data>
+      <data key="d10">SRID=4326;POINT(4.24682259024338 51.1540442547811)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="571">
+      <data key="d0" />
+      <data key="d1">220/150kV Monceau</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.37157349729</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;150000</data>
+      <data key="d9">50.3936912729</data>
+      <data key="d10">SRID=4326;POINT(4.37157349729472 50.3936912728652)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="3132">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.94492930547</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000</data>
+      <data key="d9">51.1366118956</data>
+      <data key="d10">SRID=4326;POINT(4.94492930547331 51.1366118956298)</data>
+      <data key="d11">merge</data>
+    </node>
+    <node id="3139">
+      <data key="d0" />
+      <data key="d1">Centrale nuclÃ©aire de Tihange</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.27355398614</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000;380000;380000</data>
+      <data key="d9">50.5336995221</data>
+      <data key="d10">SRID=4326;POINT(5.27355398614266 50.5336995221436)</data>
+      <data key="d11">merge</data>
+    </node>
+    <node id="3140">
+      <data key="d0" />
+      <data key="d1">Kerncentrale van Doel;Elia Doel 380;Elia Doel 150</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.25756928338</data>
+      <data key="d5">Electrabel</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">51.3242438449</data>
+      <data key="d10">SRID=4326;POINT(4.2575692833833 51.3242438449198)</data>
+      <data key="d11">merge</data>
+    </node>
+    <node id="3141">
+      <data key="d0" />
+      <data key="d1">380 kV Lixhe;150 kV Lixhe</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.66978241565</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;220000;150000</data>
+      <data key="d9">50.7535125109</data>
+      <data key="d10">SRID=4326;POINT(5.66978241564647 50.7535125108886)</data>
+      <data key="d11">merge</data>
+    </node>
+    <node id="3143">
+      <data key="d0" />
+      <data key="d1">Awirs;Cenrale Ã©lectrique des Awirs</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.42041077706</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;150000</data>
+      <data key="d9">50.5859155133</data>
+      <data key="d10">SRID=4326;POINT(5.42041077705766 50.5859155133475)</data>
+      <data key="d11">merge</data>
+    </node>
+    <node id="587">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.13508086353</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000</data>
+      <data key="d9">51.1415606731</data>
+      <data key="d10">SRID=4326;POINT(4.13508086353126 51.1415606731479)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="3149">
+      <data key="d0" />
+      <data key="d1">Coo - Trois-Ponts</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.86064902305</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">50.3852519646</data>
+      <data key="d10">SRID=4326;POINT(5.86064902304593 50.3852519645867)</data>
+      <data key="d11">merge</data>
+    </node>
+    <node id="3152">
+      <data key="d0" />
+      <data key="d1">Centrale TGV Seraing</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.49128035259</data>
+      <data key="d5">SPE</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000</data>
+      <data key="d9">50.6032267508</data>
+      <data key="d10">SRID=4326;POINT(5.49128035259005 50.6032267508009)</data>
+      <data key="d11">merge</data>
+    </node>
+    <node id="3153">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.24404188694</data>
+      <data key="d5">ELIA</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000</data>
+      <data key="d9">51.2279351961</data>
+      <data key="d10">SRID=4326;POINT(4.24404188694449 51.2279351960638)</data>
+      <data key="d11">merge</data>
+    </node>
+    <node id="3155">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.42386725062</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000;380000;150000</data>
+      <data key="d9">50.9420314226</data>
+      <data key="d10">SRID=4326;POINT(4.42386725062077 50.9420314225798)</data>
+      <data key="d11">merge</data>
+    </node>
+    <node id="612">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.47142314753</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">50.5950347988</data>
+      <data key="d10">SRID=4326;POINT(5.4714231475304 50.5950347987623)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="2492">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">3.60535398734</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7">50</data>
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">51.1152302689</data>
+      <data key="d10">SRID=4326;POINT(3.60535398733832 51.1152302688784)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="624">
+      <data key="d0" />
+      <data key="d1">Heinsch</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.75524459832</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">49.6935418234</data>
+      <data key="d10">SRID=4326;POINT(5.75524459831885 49.693541823374)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="626">
+      <data key="d0" />
+      <data key="d1">Mont-lez-Houffalize</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.79542293083</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;70000</data>
+      <data key="d9">50.1500191281</data>
+      <data key="d10">SRID=4326;POINT(5.79542293082761 50.1500191281091)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="649">
+      <data key="d0" />
+      <data key="d1">Saint-Mard</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.51423823726</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">49.5512980116</data>
+      <data key="d10">SRID=4326;POINT(5.51423823726367 49.5512980116124)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="660">
+      <data key="d0" />
+      <data key="d1">Van Eyck</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.7742180504</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000</data>
+      <data key="d9">51.1210355263</data>
+      <data key="d10">SRID=4326;POINT(5.77421805040063 51.1210355262594)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="662">
+      <data key="d0" />
+      <data key="d1">Gouy</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.3322228583</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000;70000</data>
+      <data key="d9">50.482541209</data>
+      <data key="d10">SRID=4326;POINT(4.33222285829852 50.4825412089969)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="664">
+      <data key="d0" />
+      <data key="d1">Courcelles</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.34751607766</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000</data>
+      <data key="d9">50.4943785491</data>
+      <data key="d10">SRID=4326;POINT(4.34751607765567 50.4943785491322)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="665">
+      <data key="d0" />
+      <data key="d1">380/150kV Eeklo Noord</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">3.53779405366</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">51.2065690501</data>
+      <data key="d10">SRID=4326;POINT(3.53779405366425 51.2065690500891)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="696">
+      <data key="d0" />
+      <data key="d1">AchÃªne</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.05562996117</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;70000</data>
+      <data key="d9">50.26058805</data>
+      <data key="d10">SRID=4326;POINT(5.05562996116753 50.2605880500229)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="697">
+      <data key="d0" />
+      <data key="d1">Brume</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.84343045268</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;220000</data>
+      <data key="d9">50.3755063496</data>
+      <data key="d10">SRID=4326;POINT(5.84343045268274 50.3755063495933)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="723">
+      <data key="d0" />
+      <data key="d1">220 kV RomsÃ©e</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.66043834092</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;150000</data>
+      <data key="d9">50.6139553428</data>
+      <data key="d10">SRID=4326;POINT(5.66043834092412 50.6139553428426)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="726">
+      <data key="d0" />
+      <data key="d1">Villeroux</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.66302605036</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;70000</data>
+      <data key="d9">49.9757472538</data>
+      <data key="d10">SRID=4326;POINT(5.66302605036017 49.9757472537779)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="727">
+      <data key="d0" />
+      <data key="d1">Marcourt</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.55002056986</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">50.21000097</data>
+      <data key="d10">SRID=4326;POINT(5.55002056985757 50.2100009699801)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="732">
+      <data key="d0" />
+      <data key="d1">Latour</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.58523230472</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">49.5487571494</data>
+      <data key="d10">SRID=4326;POINT(5.58523230472042 49.548757149352)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="751">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.83732757003</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">50.2384056698</data>
+      <data key="d10">SRID=4326;POINT(5.83732757003203 50.2384056698216)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="2601">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.5220113353</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;70000</data>
+      <data key="d9">50.6350205625</data>
+      <data key="d10">SRID=4326;POINT(5.52201133529748 50.6350205624752)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="3335">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.69457361581</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;220000;220000;220000;150000;220000</data>
+      <data key="d9">50.7462449331</data>
+      <data key="d10">SRID=4326;POINT(5.69457361580889 50.7462449330824)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="3337">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.05401980604</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;380000</data>
+      <data key="d9">50.2679234011</data>
+      <data key="d10">SRID=4326;POINT(5.05401980603785 50.2679234011493)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="3340">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.54387514503</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7">50</data>
+      <data key="d8">70000;220000;220000</data>
+      <data key="d9">50.2105606224</data>
+      <data key="d10">SRID=4326;POINT(5.54387514503192 50.2105606223845)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="3346">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.42235136031</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;380000;230;380000</data>
+      <data key="d9">51.1123065129</data>
+      <data key="d10">SRID=4326;POINT(4.42235136030837 51.1123065128612)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="3363">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.21754762576</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;230;230</data>
+      <data key="d9">50.8046035846</data>
+      <data key="d10">SRID=4326;POINT(4.21754762575561 50.8046035845959)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="3371">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.46134183359</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;70000</data>
+      <data key="d9">50.5899796096</data>
+      <data key="d10">SRID=4326;POINT(5.46134183359369 50.5899796095627)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="827">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.75990167093</data>
+      <data key="d5">RTE</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">225000</data>
+      <data key="d9">49.5411030395</data>
+      <data key="d10">SRID=4326;POINT(5.75990167092668 49.5411030395304)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="833">
+      <data key="d0" />
+      <data key="d1">Aubange</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.79579597076</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;220000</data>
+      <data key="d9">49.5667157283</data>
+      <data key="d10">SRID=4326;POINT(5.79579597076392 49.5667157283337)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="834">
+      <data key="d0" />
+      <data key="d1">Rouvroy</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.50653754513</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">49.5494274876</data>
+      <data key="d10">SRID=4326;POINT(5.50653754512999 49.5494274876121)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="2401">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.2674538539</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">380000;150000;380000;150000</data>
+      <data key="d9">51.3535238693</data>
+      <data key="d10">SRID=4326;POINT(4.26745385390053 51.3535238692661)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2402">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.2722319929</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7">50;50;50</data>
+      <data key="d8">150000;380000;150000;380000</data>
+      <data key="d9">51.349484869</data>
+      <data key="d10">SRID=4326;POINT(4.27223199289676 51.3494848689851)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2409">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.5440213174</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7">50;50</data>
+      <data key="d8">380000;150000;150000;380000;150000</data>
+      <data key="d9">50.9078419942</data>
+      <data key="d10">SRID=4326;POINT(5.5440213173998 50.9078419941972)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2410">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.55867966688</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7">50</data>
+      <data key="d8">380000;380000;150000</data>
+      <data key="d9">50.8072290437</data>
+      <data key="d10">SRID=4326;POINT(5.55867966687995 50.8072290436566)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2415">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.22006305142</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">50.7620155848</data>
+      <data key="d10">SRID=4326;POINT(4.22006305142375 50.7620155848487)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2416">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.22018019174</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">50.7567234819</data>
+      <data key="d10">SRID=4326;POINT(4.2201801917368 50.7567234819308)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2417">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.23544391589</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7">50</data>
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">51.0233971406</data>
+      <data key="d10">SRID=4326;POINT(4.23544391588692 51.023397140556)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2428">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.2452048301</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7">50</data>
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">51.1503091934</data>
+      <data key="d10">SRID=4326;POINT(4.2452048301011 51.1503091933503)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2436">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.22979845348</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">51.0265384472</data>
+      <data key="d10">SRID=4326;POINT(4.22979845348387 51.0265384471587)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2439">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.30351312772</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000;150000;380000</data>
+      <data key="d9">50.7919037675</data>
+      <data key="d10">SRID=4326;POINT(4.30351312772037 50.7919037674506)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2440">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.22075583217</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">50.7524733529</data>
+      <data key="d10">SRID=4326;POINT(4.22075583217086 50.752473352909)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2452">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.41411612383</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;220000;220000</data>
+      <data key="d9">50.5823304768</data>
+      <data key="d10">SRID=4326;POINT(5.41411612382634 50.5823304768161)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2454">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.46636932727</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;70000</data>
+      <data key="d9">50.5910981678</data>
+      <data key="d10">SRID=4326;POINT(5.466369327273 50.5910981678086)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2455">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.23090553724</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">51.0226406548</data>
+      <data key="d10">SRID=4326;POINT(4.23090553724001 51.0226406548214)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2628">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.58665266584</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7">50;50</data>
+      <data key="d8">220000;220000;220000</data>
+      <data key="d9">49.5471707776</data>
+      <data key="d10">SRID=4326;POINT(5.58665266583826 49.5471707776455)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2543">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.76250444041</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7">50;50</data>
+      <data key="d8">220000;220000;220000</data>
+      <data key="d9">49.6923290561</data>
+      <data key="d10">SRID=4326;POINT(5.76250444040624 49.6923290561404)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2468">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.23050219368</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">51.0228457683</data>
+      <data key="d10">SRID=4326;POINT(4.23050219367744 51.022845768322)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2469">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.23215662094</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">51.0175489722</data>
+      <data key="d10">SRID=4326;POINT(4.23215662093621 51.0175489722465)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="583">
+      <data key="d0" />
+      <data key="d1">Elia Drogenbos</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.30134017699</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">50.8036700521</data>
+      <data key="d10">SRID=4326;POINT(4.30134017698829 50.8036700520714)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="1010">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.52164215562</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;70000</data>
+      <data key="d9">50.6147618469</data>
+      <data key="d10">SRID=4326;POINT(5.52164215561712 50.6147618469119)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="444">
+      <data key="d0" />
+      <data key="d1">Trois-Ponts</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.85739948247</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">70000</data>
+      <data key="d9">50.376329084</data>
+      <data key="d10">SRID=4326;POINT(5.85739948247239 50.3763290839849)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="2497">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">3.78044749397</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7">50;50</data>
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">51.1327259924</data>
+      <data key="d10">SRID=4326;POINT(3.78044749397496 51.1327259923634)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2498">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.520605479</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">50.4947803389</data>
+      <data key="d10">SRID=4326;POINT(4.52060547900393 50.4947803388795)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2499">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.92197122081</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">50.5104583662</data>
+      <data key="d10">SRID=4326;POINT(4.92197122081255 50.5104583661653)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2500">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.53307238835</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">50.4948109692</data>
+      <data key="d10">SRID=4326;POINT(4.53307238834847 50.4948109692292)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2501">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.91054500972</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">50.5110178669</data>
+      <data key="d10">SRID=4326;POINT(4.91054500972466 50.5110178668944)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="461">
+      <data key="d0" />
+      <data key="d1">Elia Lint</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.50860715496</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">51.1177208753</data>
+      <data key="d10">SRID=4326;POINT(4.50860715496218 51.1177208752652)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="987">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.18622445282</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000</data>
+      <data key="d9">51.1387908988</data>
+      <data key="d10">SRID=4326;POINT(4.18622445281972 51.1387908988055)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="465">
+      <data key="d0" />
+      <data key="d1">Elia Ketenisse</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.27870580551</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000</data>
+      <data key="d9">51.2695030082</data>
+      <data key="d10">SRID=4326;POINT(4.27870580550703 51.2695030081757)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="986">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">3.78173158371</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000</data>
+      <data key="d9">51.1286261364</data>
+      <data key="d10">SRID=4326;POINT(3.78173158370898 51.1286261364357)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="475">
+      <data key="d0" />
+      <data key="d1">380kV Bruegel</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.23163828087</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000</data>
+      <data key="d9">50.8809862421</data>
+      <data key="d10">SRID=4326;POINT(4.23163828087368 50.8809862420776)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="481">
+      <data key="d0" />
+      <data key="d1">Soy</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.51601754527</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8" />
+      <data key="d9">50.2897603197</data>
+      <data key="d10">SRID=4326;POINT(5.51601754527153 50.2897603197407)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="484">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.62935471789</data>
+      <data key="d5">Elia Massenhoven</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">51.1957972603</data>
+      <data key="d10">SRID=4326;POINT(4.62935471788558 51.1957972602874)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="2535">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.60185773</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">70000;220000;220000;70000</data>
+      <data key="d9">50.6065647904</data>
+      <data key="d10">SRID=4326;POINT(5.60185773000033 50.6065647903789)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="1005">
+      <data key="d0" />
+      <data key="d1">Neuville</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.52727019841</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">150000;70000</data>
+      <data key="d9">50.1720024002</data>
+      <data key="d10">SRID=4326;POINT(4.52727019841403 50.1720024002399)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="1007">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.49635859298</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000</data>
+      <data key="d9">50.6027228861</data>
+      <data key="d10">SRID=4326;POINT(5.49635859298013 50.602722886139)</data>
+      <data key="d11">sub_station</data>
+    </node>
+    <node id="2546">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">5.53587494525</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">220000;220000;220000</data>
+      <data key="d9">50.5821842825</data>
+      <data key="d10">SRID=4326;POINT(5.53587494524577 50.5821842825139)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="504">
+      <data key="d0" />
+      <data key="d1">380kV Avelgem</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">3.46920856896</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000</data>
+      <data key="d9">50.7825759277</data>
+      <data key="d10">SRID=4326;POINT(3.46920856895573 50.7825759276572)</data>
+      <data key="d11">substation</data>
+    </node>
+    <node id="2553">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.40785244797</data>
+      <data key="d5">Elia</data>
+      <data key="d6" />
+      <data key="d7">50</data>
+      <data key="d8">220000;150000;150000</data>
+      <data key="d9">50.2345676866</data>
+      <data key="d10">SRID=4326;POINT(4.40785244797086 50.2345676865742)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2557">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.52653409038</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;380000;380000</data>
+      <data key="d9">50.494693648</data>
+      <data key="d10">SRID=4326;POINT(4.52653409038453 50.4946936480249)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="2556">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">4.54402644492</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;380000;150000</data>
+      <data key="d9">50.4575720387</data>
+      <data key="d10">SRID=4326;POINT(4.54402644492302 50.4575720386681)</data>
+      <data key="d11">joint</data>
+    </node>
+    <node id="509">
+      <data key="d0" />
+      <data key="d1">380/150kV Rodenhuize</data>
+      <data key="d2" />
+      <data key="d3" />
+      <data key="d4">3.77564231239</data>
+      <data key="d5" />
+      <data key="d6" />
+      <data key="d7" />
+      <data key="d8">380000;150000</data>
+      <data key="d9">51.1320375002</data>
+      <data key="d10">SRID=4326;POINT(3.77564231238798 51.132037500161)</data>
+      <data key="d11">substation</data>
+    </node>
+    <edge source="513" target="3139">
+      <data key="d12">595</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">2128.3525629529</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.2870613109904 50.5120346115309,5.27355398614266 50.5336995221436)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="513" target="3337">
+      <data key="d12">8101</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000;380000</data>
+      <data key="d22">35360.4298690534</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.05401980603785 50.2679234011493,5.2870613109904 50.5120346115309)</data>
+      <data key="d26">3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="513" target="2410">
+      <data key="d12">4113</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000;380000</data>
+      <data key="d22">43087.9632567317</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.2870613109904 50.5120346115309,5.55867966687995 50.8072290436566)</data>
+      <data key="d26">3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="513" target="529">
+      <data key="d12">4156</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000;220000;380000;220000</data>
+      <data key="d22">14086.1782140684</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.2870613109904 50.5120346115309,5.47173207237108 50.5403276815258)</data>
+      <data key="d26">3;3;3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="513" target="2499">
+      <data key="d12">6459</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">28055.3498912564</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.2870613109904 50.5120346115309,4.92197122081255 50.5104583661653)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="513" target="697">
+      <data key="d12">160</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000</data>
+      <data key="d22">44043.403184791</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.2870613109904 50.5120346115309,5.84343045268274 50.3755063495933)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="515" target="3132">
+      <data key="d12">7413</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000;380000</data>
+      <data key="d22">8687.46205599275</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.06328474816845 51.1071882335793,4.94492930547331 51.1366118956298)</data>
+      <data key="d26">3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="515" target="660">
+      <data key="d12">3899</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000;380000;380000</data>
+      <data key="d22">57084.0386789645</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.06328474816845 51.1071882335793,5.77421805040063 51.1210355262594)</data>
+      <data key="d26">3;3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2564" target="2499">
+      <data key="d12">5379</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">444.017865275184</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.92197122081255 50.5104583661653,4.91573448728949 50.5109139535887)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2564" target="2501">
+      <data key="d12">6015</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">367.015634205938</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.91054500972466 50.5110178668944,4.91573448728949 50.5109139535887)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2564" target="525">
+      <data key="d12">8007</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000;380000;380000</data>
+      <data key="d22">3325.0753253473</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.90388727523483 50.4886391442475,4.91573448728949 50.5109139535887)</data>
+      <data key="d26">3;6;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2572" target="2601">
+      <data key="d12">7396</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000;70000</data>
+      <data key="d22">1441.66598381249</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.52201133529748 50.6350205624752,5.53290547424258 50.6259929859448)</data>
+      <data key="d26" />
+      <data key="d27" />
+    </edge>
+    <edge source="528" target="529">
+      <data key="d12">8034</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000;220000;150000;220000;150000;150000;220000;220000;150000;220000</data>
+      <data key="d22">21130.3209030589</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.6196366839695 50.6445020348321,5.47173207237108 50.5403276815258)</data>
+      <data key="d26">3;3;3;6;3;3;6;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="528" target="723">
+      <data key="d12">3944</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">150000;150000</data>
+      <data key="d22">5053.00576444011</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.6196366839695 50.6445020348321,5.66043834092412 50.6139553428426)</data>
+      <data key="d26">6;6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="528" target="3335">
+      <data key="d12">7796</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000;220000;220000;220000;220000</data>
+      <data key="d22">16902.4333411126</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.6196366839695 50.6445020348321,5.69457361580889 50.7462449330824)</data>
+      <data key="d26">3;3;6;3;6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="529" target="3143">
+      <data key="d12">8094</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000;70000</data>
+      <data key="d22">6579.56950805013</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.42041077705766 50.5859155133475,5.47173207237108 50.5403276815258)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="529" target="2546">
+      <data key="d12">4009</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000;220000</data>
+      <data key="d22">7289.99915480841</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.47173207237108 50.5403276815258,5.53587494524577 50.5821842825139)</data>
+      <data key="d26">3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="529" target="481">
+      <data key="d12">7425</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000;220000</data>
+      <data key="d22">28649.5226860334</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.51601754527153 50.2897603197407,5.47173207237108 50.5403276815258)</data>
+      <data key="d26" />
+      <data key="d27" />
+    </edge>
+    <edge source="529" target="2452">
+      <data key="d12">5228</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000</data>
+      <data key="d22">6849.34713674297</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.47173207237108 50.5403276815258,5.41411612382634 50.5823304768161)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="531" target="504">
+      <data key="d12">462</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">22573.81406848</data>
+      <data key="d23">line</data>
+      <data key="d24">Elia</data>
+      <data key="d25">SRID=4326;LINESTRING(3.46920856895573 50.7825759276572,3.22666479337942 50.8980856043459)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="537" target="2553">
+      <data key="d12">7684</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">220000;150000</data>
+      <data key="d22">9649.09291990016</data>
+      <data key="d23">line</data>
+      <data key="d24">Elia</data>
+      <data key="d25">SRID=4326;LINESTRING(4.34658888022188 50.3119597024459,4.40785244797086 50.2345676865742)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="537" target="571">
+      <data key="d12">7685</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">220000;150000</data>
+      <data key="d22">11670.0873142321</data>
+      <data key="d23">line</data>
+      <data key="d24">Elia</data>
+      <data key="d25">SRID=4326;LINESTRING(4.34658888022188 50.3119597024459,4.37157349729472 50.3936912728652)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="540" target="2556">
+      <data key="d12">8013</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000;380000</data>
+      <data key="d22">2706.00788743402</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.56780726668917 50.4367589761762,4.54402644492302 50.4575720386681)</data>
+      <data key="d26">3;6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="552" target="2401">
+      <data key="d12">6331</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000;150000</data>
+      <data key="d22">2023.17582726928</data>
+      <data key="d23">line</data>
+      <data key="d24">Elia</data>
+      <data key="d25">SRID=4326;LINESTRING(4.24829679364474 51.3696336564913,4.26745385390053 51.3535238692661)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="553" target="3153">
+      <data key="d12">7377</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50;50</data>
+      <data key="d21">150000;150000</data>
+      <data key="d22">3894.71291921547</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.24404188694449 51.2279351960638,4.28880660613614 51.2533121420838)</data>
+      <data key="d26">6;6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="553" target="465">
+      <data key="d12">7309</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000</data>
+      <data key="d22">2060.71295444494</data>
+      <data key="d23">line</data>
+      <data key="d24">Elia</data>
+      <data key="d25">SRID=4326;LINESTRING(4.27870580550703 51.2695030081757,4.28880660613614 51.2533121420838)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2603" target="626">
+      <data key="d12">5789</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000</data>
+      <data key="d22">84.6265052884295</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.79542293082761 50.1500191281091,5.79828604497176 50.1499683542572)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2603" target="726">
+      <data key="d12">7230</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000;220000</data>
+      <data key="d22">25465.3126744731</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.66302605036017 49.9757472537779,5.79828604497176 50.1499683542572)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2603" target="751">
+      <data key="d12">7657</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000;220000</data>
+      <data key="d22">10651.8571212799</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.83732757003203 50.2384056698216,5.79828604497176 50.1499683542572)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="559" target="2410">
+      <data key="d12">7490</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000;380000;220000</data>
+      <data key="d22">496.427116650344</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.56146932090379 50.8019189203483,5.55867966687995 50.8072290436566)</data>
+      <data key="d26">3;3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="559" target="3141">
+      <data key="d12">7489</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000;220000;380000</data>
+      <data key="d22">9318.13100163488</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.56146932090379 50.8019189203483,5.66978241564647 50.7535125108886)</data>
+      <data key="d26">3;3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="567" target="2436">
+      <data key="d12">5021</data>
+      <data key="d13" />
+      <data key="d14">2</data>
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">14750.6434303385</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.24682259024338 51.1540442547811,4.22979845348387 51.0265384471587)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="567" target="3346">
+      <data key="d12">8104</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000;380000;380000;380000;380000;380000</data>
+      <data key="d22">14696.0205969794</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.24682259024338 51.1540442547811,4.42235136030837 51.1123065128612)</data>
+      <data key="d26">9;3;9;12;3;6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="567" target="987">
+      <data key="d12">7380</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50;50</data>
+      <data key="d21">150000;150000</data>
+      <data key="d22">4788.43780404506</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.24682259024338 51.1540442547811,4.18622445281972 51.1387908988055)</data>
+      <data key="d26">6;6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="567" target="2428">
+      <data key="d12">5280</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">577.354924270832</data>
+      <data key="d23">line</data>
+      <data key="d24">Elia</data>
+      <data key="d25">SRID=4326;LINESTRING(4.24682259024338 51.1540442547811,4.2452048301011 51.1503091933503)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="567" target="3153">
+      <data key="d12">7378</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50;50</data>
+      <data key="d21">150000;150000</data>
+      <data key="d22">8865.32899595215</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.24682259024338 51.1540442547811,4.24404188694449 51.2279351960638)</data>
+      <data key="d26">6;6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="3132" target="484">
+      <data key="d12">8057</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000;380000;150000;380000;150000;150000</data>
+      <data key="d22">23033.4324239813</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.94492930547331 51.1366118956298,4.62935471788558 51.1957972602874)</data>
+      <data key="d26">3;3;6;6;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="3140" target="465">
+      <data key="d12">7310</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000</data>
+      <data key="d22">6873.66585839308</data>
+      <data key="d23">line</data>
+      <data key="d24">Elia</data>
+      <data key="d25">SRID=4326;LINESTRING(4.27870580550703 51.2695030081757,4.2575692833833 51.3242438449198)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="3140" target="2402">
+      <data key="d12">5087</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000;150000</data>
+      <data key="d22">2120.79910752933</data>
+      <data key="d23">line</data>
+      <data key="d24">Elia</data>
+      <data key="d25">SRID=4326;LINESTRING(4.27223199289676 51.3494848689851,4.2575692833833 51.3242438449198)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="3140" target="3153">
+      <data key="d12">7299</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000</data>
+      <data key="d22">12311.489705577</data>
+      <data key="d23">line</data>
+      <data key="d24">Elia</data>
+      <data key="d25">SRID=4326;LINESTRING(4.24404188694449 51.2279351960638,4.2575692833833 51.3242438449198)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="3141" target="3335">
+      <data key="d12">7797</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000;220000;220000;220000;220000</data>
+      <data key="d22">1987.09309621689</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.66978241564647 50.7535125108886,5.69457361580889 50.7462449330824)</data>
+      <data key="d26">6;6;3;3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="3143" target="612">
+      <data key="d12">7393</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000;70000</data>
+      <data key="d22">4914.28269681038</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.4714231475304 50.5950347987623,5.42041077705766 50.5859155133475)</data>
+      <data key="d26" />
+      <data key="d27" />
+    </edge>
+    <edge source="3143" target="3371">
+      <data key="d12">272</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">70000</data>
+      <data key="d22">3587.2279000575</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.42041077705766 50.5859155133475,5.46134183359369 50.5899796095627)</data>
+      <data key="d26" />
+      <data key="d27" />
+    </edge>
+    <edge source="3143" target="2452">
+      <data key="d12">3951</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000;220000</data>
+      <data key="d22">129.542238346424</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.41411612382634 50.5823304768161,5.42041077705766 50.5859155133475)</data>
+      <data key="d26">3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="587" target="986">
+      <data key="d12">7725</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000</data>
+      <data key="d22">24814.1954488665</data>
+      <data key="d23">line</data>
+      <data key="d24">Elia</data>
+      <data key="d25">SRID=4326;LINESTRING(4.13508086353126 51.1415606731479,3.78173158370898 51.1286261364357)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="587" target="987">
+      <data key="d12">7724</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000</data>
+      <data key="d22">3513.84422552897</data>
+      <data key="d23">line</data>
+      <data key="d24">Elia</data>
+      <data key="d25">SRID=4326;LINESTRING(4.18622445281972 51.1387908988055,4.13508086353126 51.1415606731479)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="3149" target="697">
+      <data key="d12">414</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000</data>
+      <data key="d22">1536.22893568828</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.84343045268274 50.3755063495933,5.86064902304593 50.3852519645867)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="3149" target="444">
+      <data key="d12">7475</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">70000;70000</data>
+      <data key="d22">749.347638484898</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.85739948247239 50.3763290839849,5.86064902304593 50.3852519645867)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="3152" target="2454">
+      <data key="d12">6150</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000</data>
+      <data key="d22">2039.11212452729</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.466369327273 50.5910981678086,5.49128035259005 50.6032267508009)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="3152" target="1007">
+      <data key="d12">4159</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000;220000</data>
+      <data key="d22">79.5139457661261</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.49635859298013 50.602722886139,5.49128035259005 50.6032267508009)</data>
+      <data key="d26">3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="3155" target="2417">
+      <data key="d12">7154</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000</data>
+      <data key="d22">21140.5599853571</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.23544391588692 51.023397140556,4.42386725062077 50.9420314225798)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="612" target="2601">
+      <data key="d12">8084</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000;70000</data>
+      <data key="d22">6424.29086410655</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.52201133529748 50.6350205624752,5.4714231475304 50.5950347987623)</data>
+      <data key="d26" />
+      <data key="d27" />
+    </edge>
+    <edge source="612" target="2454">
+      <data key="d12">6496</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">70000</data>
+      <data key="d22">635.950677849366</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.4714231475304 50.5950347987623,5.466369327273 50.5910981678086)</data>
+      <data key="d26" />
+      <data key="d27" />
+    </edge>
+    <edge source="2492" target="504">
+      <data key="d12">6220</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">39597.8690160723</data>
+      <data key="d23">line</data>
+      <data key="d24">Elia</data>
+      <data key="d25">SRID=4326;LINESTRING(3.46920856895573 50.7825759276572,3.60535398733832 51.1152302688784)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2492" target="665">
+      <data key="d12">4042</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000;380000;150000;150000</data>
+      <data key="d22">11942.7217814934</data>
+      <data key="d23">line</data>
+      <data key="d24">Elia</data>
+      <data key="d25">SRID=4326;LINESTRING(3.53779405366425 51.2065690500891,3.60535398733832 51.1152302688784)</data>
+      <data key="d26">3;3;3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2492" target="2497">
+      <data key="d12">7123</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000</data>
+      <data key="d22">14149.4146127709</data>
+      <data key="d23">line</data>
+      <data key="d24">Elia</data>
+      <data key="d25">SRID=4326;LINESTRING(3.60535398733832 51.1152302688784,3.78044749397496 51.1327259923634)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="624" target="2543">
+      <data key="d12">5247</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000</data>
+      <data key="d22">430.132199963484</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.75524459831885 49.693541823374,5.76250444040624 49.6923290561404)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="649" target="2628">
+      <data key="d12">5455</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">220000</data>
+      <data key="d22">5401.17508282239</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.51423823726367 49.5512980116124,5.58665266583826 49.5471707776455)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="649" target="834">
+      <data key="d12">9</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000</data>
+      <data key="d22">398.879490272735</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.51423823726367 49.5512980116124,5.50653754512999 49.5494274876121)</data>
+      <data key="d26" />
+      <data key="d27" />
+    </edge>
+    <edge source="649" target="732">
+      <data key="d12">3006</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">70000</data>
+      <data key="d22">5369.92533114748</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.51423823726367 49.5512980116124,5.58523230472042 49.548757149352)</data>
+      <data key="d26" />
+      <data key="d27" />
+    </edge>
+    <edge source="660" target="2409">
+      <data key="d12">4013</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50;50</data>
+      <data key="d21">380000;150000;380000</data>
+      <data key="d22">30642.5858391981</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.77421805040063 51.1210355262594,5.5440213173998 50.9078419941972)</data>
+      <data key="d26">6;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="662" target="664">
+      <data key="d12">379</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">1394.3713380847</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.33222285829852 50.4825412089969,4.34751607765567 50.4943785491322)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="664" target="2440">
+      <data key="d12">5695</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">32599.6189183886</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.22075583217086 50.752473352909,4.34751607765567 50.4943785491322)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="664" target="2498">
+      <data key="d12">5879</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">12099.3367031427</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.34751607765567 50.4943785491322,4.52060547900393 50.4947803388795)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="696" target="3337">
+      <data key="d12">8081</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000;380000;380000</data>
+      <data key="d22">1228.37589473376</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.05562996116753 50.2605880500229,5.05401980603785 50.2679234011493)</data>
+      <data key="d26">3;3;6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="697" target="444">
+      <data key="d12">3927</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">70000;70000;220000</data>
+      <data key="d22">693.060308472892</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.85739948247239 50.3763290839849,5.84343045268274 50.3755063495933)</data>
+      <data key="d26">6;3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="697" target="751">
+      <data key="d12">8090</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000;380000;380000;220000;220000;220000</data>
+      <data key="d22">16574.688314</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.83732757003203 50.2384056698216,5.84343045268274 50.3755063495933)</data>
+      <data key="d26">3;3;6;3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="723" target="2535">
+      <data key="d12">8024</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000;220000;220000;70000;150000;220000</data>
+      <data key="d22">4118.9210323459</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.66043834092412 50.6139553428426,5.60185773000033 50.6065647903789)</data>
+      <data key="d26">3;3;3;6;6;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="726" target="833">
+      <data key="d12">3902</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50;50</data>
+      <data key="d21">380000;380000;380000</data>
+      <data key="d22">51215.765103702</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.66302605036017 49.9757472537779,5.79579597076392 49.5667157283337)</data>
+      <data key="d26">3;3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="726" target="3340">
+      <data key="d12">4007</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">220000;220000</data>
+      <data key="d22">29306.19939306</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.66302605036017 49.9757472537779,5.54387514503192 50.2105606223845)</data>
+      <data key="d26">3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="726" target="2543">
+      <data key="d12">4128</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">220000;220000;220000</data>
+      <data key="d22">32512.89077109</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.66302605036017 49.9757472537779,5.76250444040624 49.6923290561404)</data>
+      <data key="d26">6;3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="727" target="481">
+      <data key="d12">8083</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000;220000;220000</data>
+      <data key="d22">9290.75005286274</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.55002056985757 50.2100009699801,5.51601754527153 50.2897603197407)</data>
+      <data key="d26" />
+      <data key="d27" />
+    </edge>
+    <edge source="727" target="3340">
+      <data key="d12">7804</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">70000</data>
+      <data key="d22">301.434853629622</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.55002056985757 50.2100009699801,5.54387514503192 50.2105606223845)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="732" target="2628">
+      <data key="d12">6154</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000</data>
+      <data key="d22">63.9801945616019</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.58523230472042 49.548757149352,5.58665266583826 49.5471707776455)</data>
+      <data key="d26" />
+      <data key="d27" />
+    </edge>
+    <edge source="3346" target="461">
+      <data key="d12">8103</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000;380000;150000;380000;380000;380000</data>
+      <data key="d22">5897.93015313137</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.50860715496218 51.1177208752652,4.42235136030837 51.1123065128612)</data>
+      <data key="d26">12;9;3;9;3;6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="3363" target="475">
+      <data key="d12">7837</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">8475.34339384707</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.23163828087368 50.8809862420776,4.21754762575561 50.8046035845959)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="3363" target="2415">
+      <data key="d12">7836</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">4704.01640855984</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.22006305142375 50.7620155848487,4.21754762575561 50.8046035845959)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="3371" target="2452">
+      <data key="d12">8058</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000</data>
+      <data key="d22">3455.9416716069</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.46134183359369 50.5899796095627,5.41411612382634 50.5823304768161)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="3371" target="2454">
+      <data key="d12">7849</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000</data>
+      <data key="d22">346.144890129619</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.466369327273 50.5910981678086,5.46134183359369 50.5899796095627)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="827" target="833">
+      <data key="d12">7416</data>
+      <data key="d13" />
+      <data key="d14">1</data>
+      <data key="d15" />
+      <data key="d16">ligne 225 kV Moulaine - Mont-Saint-Martin</data>
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50;50</data>
+      <data key="d21">225000;220000;220000</data>
+      <data key="d22">4089.71076949339</data>
+      <data key="d23">line</data>
+      <data key="d24">RTE</data>
+      <data key="d25">SRID=4326;LINESTRING(5.75990167092668 49.5411030395304,5.79579597076392 49.5667157283337)</data>
+      <data key="d26">6;3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="833" target="2628">
+      <data key="d12">4932</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">220000</data>
+      <data key="d22">15411.1569121036</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.79579597076392 49.5667157283337,5.58665266583826 49.5471707776455)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="833" target="2543">
+      <data key="d12">5324</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">220000</data>
+      <data key="d22">14003.2857748946</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.79579597076392 49.5667157283337,5.76250444040624 49.6923290561404)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2401" target="2402">
+      <data key="d12">6443</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">150000</data>
+      <data key="d22">873.884912690874</data>
+      <data key="d23">line</data>
+      <data key="d24">Elia</data>
+      <data key="d25">SRID=4326;LINESTRING(4.26745385390053 51.3535238692661,4.27223199289676 51.3494848689851)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2409" target="2410">
+      <data key="d12">5895</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000;150000</data>
+      <data key="d22">12144.9428619265</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.5440213173998 50.9078419941972,5.55867966687995 50.8072290436566)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2415" target="2440">
+      <data key="d12">6094</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">1062.47722535618</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.22006305142375 50.7620155848487,4.22075583217086 50.752473352909)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2415" target="2416">
+      <data key="d12">6981</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">587.508266743346</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.22006305142375 50.7620155848487,4.2201801917368 50.7567234819308)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2416" target="2440">
+      <data key="d12">6105</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">473.282901552257</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.2201801917368 50.7567234819308,4.22075583217086 50.752473352909)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2416" target="2439">
+      <data key="d12">5115</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">8580.38633307047</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.2201801917368 50.7567234819308,4.30351312772037 50.7919037674506)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2417" target="2468">
+      <data key="d12">4857</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">350.850832583894</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.23544391588692 51.023397140556,4.23050219367744 51.022845768322)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2417" target="2455">
+      <data key="d12">5129</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">328.104435715731</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.23544391588692 51.023397140556,4.23090553724001 51.0226406548214)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2428" target="987">
+      <data key="d12">7723</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000</data>
+      <data key="d22">4732.51175572817</data>
+      <data key="d23">line</data>
+      <data key="d24">Elia</data>
+      <data key="d25">SRID=4326;LINESTRING(4.18622445281972 51.1387908988055,4.2452048301011 51.1503091933503)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2436" target="2455">
+      <data key="d12">7208</data>
+      <data key="d13" />
+      <data key="d14">2</data>
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">439.271191228127</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.22979845348387 51.0265384471587,4.23090553724001 51.0226406548214)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2436" target="2468">
+      <data key="d12">5003</data>
+      <data key="d13" />
+      <data key="d14">2</data>
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">412.510989465677</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.22979845348387 51.0265384471587,4.23050219367744 51.022845768322)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2439" target="583">
+      <data key="d12">8033</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">150000;380000;150000;150000;150000;380000</data>
+      <data key="d22">1276.95929231061</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.30351312772037 50.7919037674506,4.30134017698829 50.8036700520714)</data>
+      <data key="d26">3;3;6;6;6;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2455" target="2469">
+      <data key="d12">6960</data>
+      <data key="d13" />
+      <data key="d14">2</data>
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">571.951601173825</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.23090553724001 51.0226406548214,4.23215662093621 51.0175489722465)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2468" target="2469">
+      <data key="d12">6766</data>
+      <data key="d13" />
+      <data key="d14">2</data>
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">599.330230520343</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.23050219367744 51.022845768322,4.23215662093621 51.0175489722465)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2469" target="475">
+      <data key="d12">7200</data>
+      <data key="d13" />
+      <data key="d14">2</data>
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">15164.133706546</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.23163828087368 50.8809862420776,4.23215662093621 51.0175489722465)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="583" target="475">
+      <data key="d12">7471</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">150000;150000</data>
+      <data key="d22">10711.2371508416</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.23163828087368 50.8809862420776,4.30134017698829 50.8036700520714)</data>
+      <data key="d26">6;6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="1010" target="2546">
+      <data key="d12">8100</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000</data>
+      <data key="d22">3901.48444857796</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.52164215561712 50.6147618469119,5.53587494524577 50.5821842825139)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="1010" target="1007">
+      <data key="d12">1754</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000</data>
+      <data key="d22">2374.06427322032</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.49635859298013 50.602722886139,5.52164215561712 50.6147618469119)</data>
+      <data key="d26">9</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2497" target="986">
+      <data key="d12">7726</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50</data>
+      <data key="d21">380000</data>
+      <data key="d22">440.166255728814</data>
+      <data key="d23">line</data>
+      <data key="d24">Elia</data>
+      <data key="d25">SRID=4326;LINESTRING(3.78173158370898 51.1286261364357,3.78044749397496 51.1327259923634)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2497" target="509">
+      <data key="d12">4041</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000;150000;150000;380000</data>
+      <data key="d22">150.400526794964</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(3.77564231238798 51.132037500161,3.78044749397496 51.1327259923634)</data>
+      <data key="d26">3;3;3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2498" target="2500">
+      <data key="d12">6915</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">883.351285914904</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.52060547900393 50.4947803388795,4.53307238834847 50.4948109692292)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2498" target="2557">
+      <data key="d12">5940</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">419.516631654522</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.52060547900393 50.4947803388795,4.52653409038453 50.4946936480249)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2499" target="2501">
+      <data key="d12">6541</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">812.742416142868</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.92197122081255 50.5104583661653,4.91054500972466 50.5110178668944)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2500" target="2501">
+      <data key="d12">4769</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">26968.8585611305</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.91054500972466 50.5110178668944,4.53307238834847 50.4948109692292)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2500" target="2557">
+      <data key="d12">6774</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">462.851701856414</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.53307238834847 50.4948109692292,4.52653409038453 50.4946936480249)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="461" target="484">
+      <data key="d12">7628</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">13649.586039847</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.62935471788558 51.1957972602874,4.50860715496218 51.1177208752652)</data>
+      <data key="d26">6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="986" target="509">
+      <data key="d12">8089</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">150000;150000;150000;150000;150000</data>
+      <data key="d22">589.833714431729</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(3.78173158370898 51.1286261364357,3.77564231238798 51.132037500161)</data>
+      <data key="d26">3;6;3;3;3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2535" target="2546">
+      <data key="d12">6881</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">220000</data>
+      <data key="d22">6082.86455172841</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(5.60185773000033 50.6065647903789,5.53587494524577 50.5821842825139)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+    <edge source="1005" target="2553">
+      <data key="d12">8045</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20">50;50</data>
+      <data key="d21">150000;220000;150000</data>
+      <data key="d22">13085.8817619019</data>
+      <data key="d23">line</data>
+      <data key="d24">Elia</data>
+      <data key="d25">SRID=4326;LINESTRING(4.52727019841403 50.1720024002399,4.40785244797086 50.2345676865742)</data>
+      <data key="d26">3;6</data>
+      <data key="d27" />
+    </edge>
+    <edge source="2557" target="2556">
+      <data key="d12">5842</data>
+      <data key="d13" />
+      <data key="d14" />
+      <data key="d15" />
+      <data key="d16" />
+      <data key="d17" />
+      <data key="d18">''</data>
+      <data key="d19" />
+      <data key="d20" />
+      <data key="d21">380000</data>
+      <data key="d22">4474.70080445086</data>
+      <data key="d23">line</data>
+      <data key="d24" />
+      <data key="d25">SRID=4326;LINESTRING(4.54402644492302 50.4575720386681,4.52653409038453 50.4946936480249)</data>
+      <data key="d26">3</data>
+      <data key="d27" />
+    </edge>
+  </graph>
+</graphml>

@@ -1,6 +1,12 @@
 # Power_grids
 Topologies of power networks
 
+## Origin of the data
+
+The power grid topologies listed in the present repository were obtained from the crowdsourcing project OpenStreetMap (https://www.openstreetmap.org). These data are fed in by users of the app and may be incomplete.
+
+There is a large gap between these data and a topological representation of the power grid. The SCIGRID project (http://scigrid.de) tackels th
+
 ## Architecture
 
 There are two folders that contains the CSV data :
