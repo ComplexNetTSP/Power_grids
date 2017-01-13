@@ -56,7 +56,7 @@ Each row contains information relative to a single electrical line. Fields are s
 - *v_id_2*: End node 2 identifier (type: integer)
 - *voltage*: Line voltage level (type: integer)
 - *cables*: Number of cables for the line (type: integer)
-- *wires*:
+- *wires*: Number of wires (type: integer)
 - *frequency*: Line frequency (type: float)
 - *name*: Line name (type: string)
 - *operator*: Name of the line operator (type: string)
