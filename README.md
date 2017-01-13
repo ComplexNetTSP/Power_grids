@@ -1,11 +1,10 @@
 # Power_grids
-Topologies of power networks
 
 ## Origin of the data
 
-The power grid topologies listed in the present repository were obtained from the crowdsourcing project OpenStreetMap (https://www.openstreetmap.org). These data are fed in by users of the app and may be incomplete.
+The power grid topologies listed in the present repository were obtained from the crowdsourcing project OpenStreetMap (https://www.openstreetmap.org). These data are fed in by users of the app and may be incomplete or even wrong. For this reason topologies presented here should not be considered as exact representations of the real topologies.
 
-There is a large gap between these data and a topological representation of the power grid. The SCIGRID project (http://scigrid.de) tackels th
+There is a large gap between these data and a topological representation of the power grid. Please refer to the SCIGRID project (http://scigrid.de) for more information.
 
 ## Architecture
 
@@ -14,7 +13,7 @@ There are two folders that contains the CSV data :
 - Countries
 - Continents
 
-As their names suggest, Countries contains the data for different countries and Continents the data for different continents. The architecture is the same for both folders. For each country/continent, their are 4 subfolders :
+As their names suggest, *italic* Countries *italic* contains the data for different countries and Continents the data for different continents. The architecture is the same for both folders. For each country/continent, their are 4 subfolders :
 
 - Nodes : contains the raw nodes data
 - Edges : contains the raw edges data
