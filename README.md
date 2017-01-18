@@ -6,7 +6,7 @@ The power grid topologies listed in the present repository were obtained from th
 
 There is a large gap between OSM data and a graphical representation of the power grid. Please refer to the SCIGRID project (http://scigrid.de [1]) for more information.
 
-[1] C. Matke, W. Medjroubi, D. Kleinhans, SciGRID - An Open Source Model of the European Power Transmission Network. Mathematics and Physics of Multilayer Complex Networks, 2015.
+[1] *C. Matke, W. Medjroubi, D. Kleinhans*, **SciGRID - An Open Source Model of the European Power Transmission Network**, Mathematics and Physics of Multilayer Complex Networks, 2015.
 
 ## Architecture
 
