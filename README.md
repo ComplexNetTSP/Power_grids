@@ -1,10 +1,12 @@
-# Power_grids
+# Power grids datasets
 
 ## Origin of the data
 
 The power grid topologies listed in the present repository were obtained from the crowdsourcing project OpenStreetMap (OSM) (https://www.openstreetmap.org). These data are fed in by users of the app and may be incomplete or even wrong. For this reason, topologies presented here should not be considered as exact representations of the real topologies, but rather as approximations. Results clearly depends on the data entered by the users. 
 
-There is a large gap between OSM data and a graphical representation of the power grid. Please refer to the SCIGRID project (http://scigrid.de) for more information.
+There is a large gap between OSM data and a graphical representation of the power grid. Please refer to the SCIGRID project (http://scigrid.de [1]) for more information.
+
+[1] C. Matke, W. Medjroubi, D. Kleinhans, SciGRID - An Open Source Model of the European Power Transmission Network. Mathematics and Physics of Multilayer Complex Networks, 2015.
 
 ## Architecture
 
